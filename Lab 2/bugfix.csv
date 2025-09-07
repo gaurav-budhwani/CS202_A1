@@ -1,0 +1,1673 @@
+hash,message,hashes_of_parents,is_merge_commit,list_of_modified_files
+5d58272128c187a7fae5b47abb024549f3bb74d2,"Merge pull request #2 from airbnb/interpolation-fix
+
+remove invalid interpolation examples","['ca0f5ff8076ed0e0924bb8004a79d6983d949b8a', 'f08e400ae498fee1b59e7b5ca64838ddee6b21ea']",True,[]
+fef21df0e5b84e4cc152d79a6bb950a4af6ae254,fix conflict,"['6a0c83a322ae8ebdfe8cecae2f6e7069ab75934b', '5d58272128c187a7fae5b47abb024549f3bb74d2']",True,[]
+8cef7f1ec6d6cd1a0e0e5c7915d4a001d3cb10e2,fix the baker link,['b2c7d3d0d35c9608f76047b318baae3b97021dc0'],False,['README.md']
+ab5910ae9ad13acdebd7f104acab8e63fa2fcfdd,braces for mulit-line blocks only. optional for single-line blocks. fixes #3,['8cef7f1ec6d6cd1a0e0e5c7915d4a001d3cb10e2'],False,['README.md']
+622050681b70af230412a95e7f14c9a1f4e50ae8,"Don't use reserved words as property names. If you do, quote them. fixes #6",['437e33a31859aafbbf2b04c204b7009b6c260b47'],False,['README.md']
+8f0ef5d9fdfd1ce6da4a1977451e0ff2003a65b0,return when it makes sense. fixes #9,['622050681b70af230412a95e7f14c9a1f4e50ae8'],False,['README.md']
+b714fe88ccb4497950934ac643efed27acb24e52,Just don't use reserved words as keys. fixes #6,['8f0ef5d9fdfd1ce6da4a1977451e0ff2003a65b0'],False,['README.md']
+db5cd7c091fef244506a5f995bdc0c9f159e6a2b,Increment fix version for typo update,['280164a995d9cebac4d9fc35f7844920c5410445'],False,['SublimeLinter.sublime-settings']
+e34611d5b2527885503cfd27c47c1b76cd0705ba,[accessors] fixes #13,['1fcf86fd9650b125d0e05e2b9c365978beee9a45'],False,['README.md']
+92fa3c7f73bb041f04d3f553a392e0468420f334,[naming conventions] fixes #15,['4400753ac1a2b1fc11500d996a7e1498d520f36f'],False,['README.md']
+b790fae6ca2b29038c302d045285af3d91af8aab,[variables] more generic. fixes #14,['92fa3c7f73bb041f04d3f553a392e0468420f334'],False,['README.md']
+f473ef00e96f31e802d07d0906bd66b1d3c99bd3,[whitespace] use indentation for long method chains. fixes #19,['fadaff70374fa9c7a517aef146d3408713b05ada'],False,['README.md']
+b4cf72329d7e703ec4e900e171c1b83f54023531,[Type Casting & Coercion] use parseInt for readability. fixes #18,['bd6a4076df5424ec8d7b89589773b98e1af05084'],False,['README.md']
+2dadef915c6176f4a29f839b3b249f9d44d21f40,[Type Casting & Coercion] fix typo,['b4cf72329d7e703ec4e900e171c1b83f54023531'],False,['README.md']
+9fb45df8fc9a731bb1fe6ecac28b94b7634e0619,[jQuery] better performance for DOM queries. fixes #22,['2dadef915c6176f4a29f839b3b249f9d44d21f40'],False,['README.md']
+86cd4a2cfad6cfc89f02d5bc0a80cfcf76329d31,Fixed typo -> pased to passed,['4d9dc6cc8f2c41b63f75ea7fd9819e3467371855'],False,['README.md']
+a4115f07d95a41b54f8a139d4ac73f7a2f46b97b,"Merge pull request #23 from askalot/master
+
+Fixed minor typo","['4d9dc6cc8f2c41b63f75ea7fd9819e3467371855', '86cd4a2cfad6cfc89f02d5bc0a80cfcf76329d31']",True,[]
+9fd528f794aee470f7073747ae3a2e2e09ae7bbb,Fix whitespace one space example,['a4115f07d95a41b54f8a139d4ac73f7a2f46b97b'],False,['README.md']
+c3f8a79b70fed691c2ec981f183562567aef3659,"Merge pull request #26 from jgable/patch-1
+
+Fix whitespace one space example","['a4115f07d95a41b54f8a139d4ac73f7a2f46b97b', '9fd528f794aee470f7073747ae3a2e2e09ae7bbb']",True,[]
+e6243c95cde6cf96a3bd9a4e6ee616687f2eecbd,"[naming conventions] saving reference to this, use _this. fixes #32",['d5210145e8ca0b0aa0dd6f66ccfb613b37dc7a7b'],False,['README.md']
+015e4317adb15dc5cc7dd14f657a682359cc8434,[arrays] update jsperf links. fixes #27,['dfb699a068238e6647427a7d34a9c2954b0f20ea'],False,['README.md']
+2091d965100f66a7e73c71256e447f6f9bcc5de9,"Merge pull request #36 from thisconnect/master
+
+small code example and typo fixes","['b74ba8bdc6405dddefc59e7369ade78f7cba0670', 'c4ae7e7a56942cc4c2be20bf32511623605d6d1b']",True,[]
+4815ab0016195fd826ad477e96f878b928bc2b93,[strings] add jsPerf and discussion about long strings with concatenation. Fixes #40,['e645ca25f91d271e3a6224bbe5478a51624a1d47'],False,['README.md']
+c30a067f10620f5307f4056c98edf4f6563dc438,[arrays] use Array#slice to copy an array. Fixes #41,['4815ab0016195fd826ad477e96f878b928bc2b93'],False,['README.md']
+d149b74dca2a1dc08a163ae4b88d7e70e1ae39c7,[hoisting] fix typo,['c30a067f10620f5307f4056c98edf4f6563dc438'],False,['README.md']
+5a01394bbd2a8b7293c9b99867c5ad26fe8f752c,[functions] fix link to ecma-262 note,['53946c5a0a00acf5bc3e49bd39f453bac4c96a2a'],False,['README.md']
+2a43ade4ad7a796083bd18836986de55eea374a1,Fixed typo,['5a01394bbd2a8b7293c9b99867c5ad26fe8f752c'],False,['README.md']
+eceab31a02047089bc6a4d1a93b0f0cf91fb9ea9,"Merge pull request #43 from mitsuruog/master
+
+[functions] Fixed typo","['5a01394bbd2a8b7293c9b99867c5ad26fe8f752c', '2a43ade4ad7a796083bd18836986de55eea374a1']",True,[]
+40f261b9d9b5ecb0f4240cd885aa965818b2585d,Fixed typo,['2a43ade4ad7a796083bd18836986de55eea374a1'],False,['README.md']
+11bfc4a221907f20acf9ec8839f69cb5653cb1a2,Fixed typo,['40f261b9d9b5ecb0f4240cd885aa965818b2585d'],False,['README.md']
+479fcbede2fad69c895a9351ba392c7a553ec135,"Merge pull request #46 from mitsuruog/master
+
+Fixed some typos.","['c3111c7be22236401f6f3fd2b222fac2b8e64459', '11bfc4a221907f20acf9ec8839f69cb5653cb1a2']",True,[]
+fba96a8bf06d5bbf7559250834b4913d1dbec159,[other styles] add link to conditional callback discussion. fixes #52,['e012839d088f4ca5a93b35933886a4532b122037'],False,['README.md']
+e0572c7f89fbc91462b4541075cd666ebecf6338,fixed link in Other Styles->Conditional Callbacks,['fba96a8bf06d5bbf7559250834b4913d1dbec159'],False,['README.md']
+c4a2fa12dc85ba1c11d88b305945bbc7e4176770,"Merge pull request #53 from Znarkus/patch-1
+
+fixed link in Other Styles->Conditional Callbacks","['fba96a8bf06d5bbf7559250834b4913d1dbec159', 'e0572c7f89fbc91462b4541075cd666ebecf6338']",True,[]
+bbfcaa47b4621894bd65bc31cd6d871f0b45166b,"Fix links in ""In the Wild"" and ""The JavaScript Style Guide Guide"" sections",['c4a2fa12dc85ba1c11d88b305945bbc7e4176770'],False,['README.md']
+91a2b3db5b8c4b0ae35c4ae6996f207ed7a9af17,"Merge pull request #56 from qorbani/master
+
+Fix links in ""In the Wild"" and ""The JavaScript Style Guide Guide"" sections","['c4a2fa12dc85ba1c11d88b305945bbc7e4176770', 'bbfcaa47b4621894bd65bc31cd6d871f0b45166b']",True,[]
+cad9032e7cd798c09f8774971265f8ebb1baeae3,[comments] add FIXME and TODO annotations. Fixes #62,['a15b27e670d92aac838d581f500fdfa2a16e6bb5'],False,['README.md']
+f435429b986dacb816ed31bb3074f0c4dd73f394,"Fixed small error in jQuery selector example
+
+$('.sidebar > ul') instead of $('.sidebar > .ul')",['cad9032e7cd798c09f8774971265f8ebb1baeae3'],False,['README.md']
+20c48f19d6786aeaa19b8fe40ddaa28cda4ca8e6,"Merge pull request #63 from kairosagency/jqueryfix
+
+Fixed small error in jQuery selector example","['cad9032e7cd798c09f8774971265f8ebb1baeae3', 'f435429b986dacb816ed31bb3074f0c4dd73f394']",True,[]
+32a4a8f89243204ade5b60cf6f8499a714896b3b,"Merge pull request #66 from SiPlus/master
+
+Change Array.prototype.slice.call(items) to items.slice()","['67d2f39f87d58ebdd2a13d75770e6ba9d02d820b', 'c96672368a2c1f539f97b206bb66f6da32aed5ed']",True,[]
+8335ffadb439a1d646189bf28082ee7d16b2eb73,[whitespace] use single quotes for strings. fixes #68,['cb7b261028929820e195eb8a0287b2301e208459'],False,['README.md']
+e3e3cc1a4e246c720fc8305d80fa6504d4a69584,"[resources] add section for further reading, closures. fixes #64",['3cea9f56f04b1b6c721225c47ddc4e217b3407a0'],False,['README.md']
+bf87eec1996c02342ba8819e4bd5dad0f93ea7de,[commas] add section on additional trailing commas. fixes #75,['e3e3cc1a4e246c720fc8305d80fa6504d4a69584'],False,['README.md']
+ae425f03ed47e0da401e5a608e6a239998d70d64,[type casting] move explanation about bitshift closer to example code. fixes #80,['17c8be1117ec8b9d5021b822a2aa04a019204c45'],False,['README.md']
+020fe0387283d97d3d42b7d95e0c4e4bb16817df,[objects] update discussion on reserved word usage. fixes #61,['ae425f03ed47e0da401e5a608e6a239998d70d64'],False,['README.md']
+a37d284b20d4add165dcdf515ebe7a4fa6810be9,fix typo (i think),['c8442b484c2729954d4b5e39cd3f70f7f3fb0be5'],False,['README.md']
+c4ebea97b8f77b8ce2123f7f315202a9ce77acdb,"Merge pull request #86 from nicoder/patch-1
+
+fix typo (i think)","['96b69c4f09164129063d96db5f71837406fabcfe', 'a37d284b20d4add165dcdf515ebe7a4fa6810be9']",True,[]
+6394ca8dd84dd475a1ef60befc53497b4df84366,[jquery] the faster lookup isn't actually faster. Fixes #90,['5a769c1c0eb55825ba692cd18b95d06fa475aefa'],False,['README.md']
+e84b63c07f53a1b139363dcdd5880691480a58c7,"Fix jQuery selector with context param order
+
+`$(selector, parent)`
+
+See: http://api.jquery.com/jQuery/#jQuery-selector-context",['6394ca8dd84dd475a1ef60befc53497b4df84366'],False,['README.md']
+fcdf61c9ece07d0671f0a68264d8001ed9d8be5f,"Merge pull request #91 from jdhartley/patch-1
+
+Fix jQuery selector with context param order","['6394ca8dd84dd475a1ef60befc53497b4df84366', 'e84b63c07f53a1b139363dcdd5880691480a58c7']",True,[]
+9d17310d2966328de886df53ca74608eb3b5e1e7,[resources] add additional helpful resources. fixes #92,['fcdf61c9ece07d0671f0a68264d8001ed9d8be5f'],False,['README.md']
+de4979b999ebfd9a4aad35b1303f73dfda636ec9,Fixed typos,['9862309820141c40e9a11dc443dddc144a511ea6'],False,['README.md']
+c7ab9b8cecf29122d5e212843823f54085722595,"Merge pull request #103 from pborreli/patch-1
+
+Fixed typo","['9862309820141c40e9a11dc443dddc144a511ea6', 'de4979b999ebfd9a4aad35b1303f73dfda636ec9']",True,[]
+8bab767301b27b0f976b539542310b2dee01ed57,[type casting & coercion] add note about bitshift and large integers. fixes #109,['fa32d9a1585db72fd69e258f6a57387a54856824'],False,['README.md']
+aaaf392e1c15b3056f06b415387dd9da1824d27e,[type casting & coercion] fix formatting,['8bab767301b27b0f976b539542310b2dee01ed57'],False,['README.md']
+6445a6fd00fb8a7c4cd5f0d1adab9717c092ef5a,"Remove invalid name - Naming Conventions
+
+In naming conventions `var this-is-my-object = {};` is given as an example of a bad name. But since this is an invalid name in Javascript. I dont think it is needed since its a syntax error.",['aaaf392e1c15b3056f06b415387dd9da1824d27e'],False,['README.md']
+f07de4befb52e22f4d77d5e94c22d57c62357621,[translation] add Bulgarian translation. fixes #121,['1ffec40ffd3b4d10e82887788fd52638ad6083ba'],False,['README.md']
+745cf854d11510bebe2d971cd981ca884ac52228,[translation] update russian fixes #120,['e82c8dbf56b9a8c32b23fa92458d7dacb27292f2'],False,['README.md']
+388294966894e0aec4649cc75ebfdfe5a74a5d60,"32-bit integers and bitwise operators explained with example of possible issues
+
+I've added this example to russian translation when I've got question from our juniors ""what's the limits of wise use of bitwise operators"".",['745cf854d11510bebe2d971cd981ca884ac52228'],False,['README.md']
+440b34a0b5c7b2b3a7e106760e9d2d5986e75315,[resources] add link to Third Party JavaScript. fixes #128,['7a9f9c57f25b472d7e359ff0a4bf6c0abc1d2b8b'],False,['README.md']
+12baae728e0fc710e1efe3e662a6b63e2353bd37,Fix typo with word programatically,['c287ad87655bf5fb2bd55037b4e805d5c47374d5'],False,['README.md']
+2a1c19abee5971b3b49f67bdc10b4a89597f89c8,"Merge pull request #151 from goldcaddy77/fix-programatically-typo
+
+Fix typo with word programatically","['c287ad87655bf5fb2bd55037b4e805d5c47374d5', '12baae728e0fc710e1efe3e662a6b63e2353bd37']",True,[]
+2d9759484c4a04e742010b6b5ee13e3d0b7395e5,"Merge pull request #126 from Jabher/patch-1
+
+32-bit integers and bitwise operators explained with example of issues","['8cfb740a5781c0b297000b8a55d8f797bedc8638', '388294966894e0aec4649cc75ebfdfe5a74a5d60']",True,[]
+0a58fc75def52b776d3e391dbf3b278867ef9047,"[naming conventions] add note about NFEs, IE8 and below. fixes #82",['2d9759484c4a04e742010b6b5ee13e3d0b7395e5'],False,['README.md']
+b81a7402416b90c9ef7b484a947111f8f514b386,[in the wild] add VoxFeed. fixes #192,['0b0a41704c4fd3866c2a7b28464d8978949eb58b'],False,['README.md']
+38fd77e159fc905820f6beb40e39e0a8b23dc9a4,[in the wild] add Evernote. fixes #193,['b81a7402416b90c9ef7b484a947111f8f514b386'],False,['README.md']
+ef4420bfa00f0f228d7da65f78097f3cda414620,[in the wild] add InfoJobs. fixes #203,['21a44a7627c266f35f6d2a7f8b8ba1504987b0f9'],False,['README.md']
+da9103f11bc9143ff58bc65957bca45e255bad02,Fixed flag icon,['058e9adce3e8b720781b99faa4c7ba2f15911fff'],False,['README.md']
+2522afab5d939aabec131744d2a821b8677e76a6,Also fixed Bulgarian flag icon,['da9103f11bc9143ff58bc65957bca45e255bad02'],False,['README.md']
+8d51bd504b3d64e551f28a2b5bfbd98f1605f131,"Switch from single var to one-var-per-variable
+
+Frontenders at Airbnb at have been discussing this change for a bit, and
+we've come to favor one-var-per-variable over one-var-only declarations.
+Two things improve the maintainability of this style over one var for
+multiple variables:
+
+ 1. You never have a diff of a line that's removing a `;` and inserting
+    a `,`.
+ 2. You can't accidentally declare global variables because you have a
+    one-character mistake (semicolon instead of comma):
+
+    ```javascript
+    var foo = 1,
+        bar = 2;
+        baz = 3; // added later and (accidentally) declared globally
+    ```",['bae9bc6b361a193d2562f43d0be8ae509074b3c6'],False,['README.md']
+3c68fc494632bfb28b470f63af94cf8b9a11acf1,Reformat var change,['b61d52ca41450c5f661bd96265b3c8e063c0961c'],False,['README.md']
+1e2202938d4567dc81eb5c9a65ba5d5c2b19741d,"Merge pull request #232 from ClimbsRocks/patch-2
+
+Added consistent periods before code snippets, fixing Issue #231","['9812fdcff3648e1073e1009e6a353b16871be740', '233c1db73ae24731074ecba583945036f3c7148a']",True,[]
+95eae8840a49b7082d35532ea68a5059382d545f,"Merge pull request #242 from omarduarte/patch-1
+
+(Fix) Add semicolon to whitespace code example","['b60970a6bfb737949d40c6cfa27403729aaf33ed', 'b0a364dedbc1f9c2c8512606bc5c26db5bceb2f8']",True,[]
+3eef511fd650a2d4504afdf9007fd1c4c3a508da,"Fixes #251 - Rename Conditional Expressions
+
+As per issue #251, renames section Conditional Expressions & Equality to Comparison Operators & Equality, as the section is not about the Elvis operator :)",['b3e83dcaa57d6679d0e972dcf163d81a51779b1d'],False,['README.md']
+fa64b975c33714cbc3d947726671bf673bc12998,"Merge pull request #252 from fvanderwielen/patch-1
+
+Fixes #251 - Rename Conditional Expressions section","['b3e83dcaa57d6679d0e972dcf163d81a51779b1d', '3eef511fd650a2d4504afdf9007fd1c4c3a508da']",True,[]
+3058e38d0157db360d4b513342455213e2642fe3,fix(eslint): Remove amd and jquery from env,['dbbdec3f290e7b246a7e7054baa39858ca53b532'],False,['eslintrc']
+ebe8cb253dce09535f8a45e47d1ec5be75129f27,Fix a typo in selector,['483bc27a7cf7e8b358621f03ded120e2998854ca'],False,['README.md']
+6cda67e2f54556f8b42f08be27bd8fbc92936a94,"Fix minor punctuation errors
+
+(1) BEFORE: Never name a parameter `arguments`, this will take precedence over the `arguments` object.
+AFTER: Never name a parameter `arguments`. This will take precedence over the `arguments` object.
+
+(2) BEFORE: Variable declarations get hoisted to the top of their scope, their assignment does not.
+AFTER:
+Variable declarations get hoisted to the top of their scope, but their assignment does not.
+
+(3) BEFORE: for multiline comments
+AFTER: for multi-line comments
+
+(4)BEFORE: It’s okay to write a custom toString() method, just make sure
+AFTER: It's okay to write a custom toString() method. Just make sure",['520b6d658f3f0f1fb23438bd3181361fac5dc7cc'],False,['README.md']
+87ea8909d851f1a56b6cb7173b73a15f4b2a5d5b,fix(one-var): Add one-var setting from @nkbt,['3058e38d0157db360d4b513342455213e2642fe3'],False,['eslintrc']
+7ed9511a2f3d4b6120b26ea8ebb35d4b63a54c23,"Merge pull request #288 from RKushnir/master
+
+Fix a typo in selector","['e2688acf30469448b23188af0c183900d2d0d077', 'ebe8cb253dce09535f8a45e47d1ec5be75129f27']",True,[]
+540365c4cc68323abb401bcb0e7f55ceb5113d1f,[whitespace] class => classed. fixes #294,['0501155c5e8fd20d35e9f4b0b12a776d28b7fd9c'],False,['README.md']
+ddbc7aa0fd28f403ddb373bba5515688d021d6e9,"Merge pull request #295 from airbnb/fix-whitespace-ex
+
+[whitespace] class => classed. fixes #294","['0501155c5e8fd20d35e9f4b0b12a776d28b7fd9c', '540365c4cc68323abb401bcb0e7f55ceb5113d1f']",True,[]
+d5cddf836c1f36d4f721589c8cb3e5848218afa6,"Merge pull request #292 from sunshinewyin/master
+
+Fix minor punctuation errors in README","['ddbc7aa0fd28f403ddb373bba5515688d021d6e9', '6cda67e2f54556f8b42f08be27bd8fbc92936a94']",True,[]
+91d56b6874b55dd545cdb668f1c3b3b1a9f446d9,"[eslint] fix whitespace, silence underscore dangle",['b694fedccdcfa1c2c1761957de44fc43d1e9d175'],False,['.eslintrc']
+7fe4883a7571e0e64abda1937bd807f6c5a2a0d2,[variables] fix variable hoisting example. fixes #265,['10ef68a4ab39f5742413afe38bdb1453bc2f517b'],False,['README.md']
+dc100c8d31e251ce13fe267bf70855765a7445de,"Merge pull request #317 from airbnb/fix-var-example
+
+[variables] fix variable hoisting example. fixes #265","['10ef68a4ab39f5742413afe38bdb1453bc2f517b', '7fe4883a7571e0e64abda1937bd807f6c5a2a0d2']",True,[]
+6de02b80a250b618fcc083358acbc6ab91d85f5f,"Merge pull request #316 from airbnb/eslintrc
+
+[linters] update .eslintrc. fixes: #313, #259","['dc100c8d31e251ce13fe267bf70855765a7445de', '91d56b6874b55dd545cdb668f1c3b3b1a9f446d9']",True,[]
+1282ee63df09442602588af5cedce850533b217a,Add comment on why we're breaking a rule,['0c6697104b1477187f50f0497227e04be6587e02'],False,['README.md']
+bc5b0ee007ba9e7bd92afb7caf325f4c63fc6e09,"Change wording in Iterators and Generators
+
+I found the term ""function constructors"" to be confusing as the functions the section refers to are not constructors. I think ""higher-order functions"" or something similar would be more clear.
+
+Thanks!",['22e3c89d045e60fba240b07009bed07ba1797eaf'],False,['README.md']
+f7321b303d6f3046ba49741041312fa2d8c76ed7,[modules] fix invalid syntax in bad example. fixes #287,['6d34c516cc1649fe795a5145e89545328d04d360'],False,['README.md']
+0cca5e21fc66d6c5f076af71ab9a269a3ccddcc7,"Fix hoisting examples
+
+Hoisting only happens to `var`. As kangax describes in [Why `typeof` is no longer “safe”](http://es-discourse.com/t/why-typeof-is-no-longer-safe/15/3).
+
+Also, I wonder if we need the whole section, since you recommend to [avoid using `var` altogether](https://github.com/airbnb/javascript/blob/b492/README.md#references).",['ee176044c303a523cbb1ee68d1202d399639bcb3'],False,['README.md']
+455529c2346bd9f38e9ce09c507afbc11bba6b17,Updates es5 guide with latest,['cb47b478c70bb0d1bee0a60643c5970bd67a799a'],False,['README.md']
+120a122c29d7b5776935a6f0a61b0f8eb65a2736,"Merge pull request #327 from airbnb/fix-wording
+
+[intro] our es5 guide is still up to date","['1df31607a7ec8db27a4a11fbad637b5f75d88842', 'a41c1fab68fa913c9184299cfa92ac453a420291']",True,[]
+a2034b0f6ce448c272bd4c13773dfd710dbfeb89,[commas] additional trailing commas good in es6. fixes #323,['120a122c29d7b5776935a6f0a61b0f8eb65a2736'],False,['README.md']
+7ade95434c6d9e8faf862e6f69df1110449e4955,[commas] fix bad git diff example,['a2034b0f6ce448c272bd4c13773dfd710dbfeb89'],False,['README.md']
+fc248e66ee3f80e84d675f436a7b18996ca46821,"Merge pull request #328 from airbnb/es6-trailing-commas
+
+[commas] additional trailing commas good in es6. fixes #323","['120a122c29d7b5776935a6f0a61b0f8eb65a2736', '7ade95434c6d9e8faf862e6f69df1110449e4955']",True,[]
+0ffbdd3692e6717dd5d34288da5e2e3efb8be0e9,[comments] fix example,['261f3bbbc51849f7e04f7fe9c6dc7193f652be3b'],False,['README.md']
+716e8c5b9df7aba74645a4331d6ac58e15357f99,"Merge pull request #330 from airbnb/fix-example
+
+[comments] fix example","['261f3bbbc51849f7e04f7fe9c6dc7193f652be3b', '0ffbdd3692e6717dd5d34288da5e2e3efb8be0e9']",True,[]
+2595cb6724d0fd02ed771006517394fc43df341e,"removed alpha sort, changed jsx exten to js, added method prefix rule, added camelCase for props",['3764337df248e5068684f00bd2153dfd31fa243f'],False,['README.md']
+a9319691e4618188732c132e96cc8122955b678f,Fix typo,['9563e1a418ea796d3d8c5bc660f16692ba6693ff'],False,['README.md']
+36ddb36e21a3e7c62a93e9d0f194973c0578fccb,[conditionals] clarify conditionals. fixes #336,['df5029b5a55602a0b65f6a0a8dd7ac9a757caea8'],False,['README.md']
+b201d2b3b98c336346adc9035304d007a60b07b1,"Merge pull request #337 from airbnb/clarify-conditionals
+
+[conditionals] clarify conditionals. fixes #336","['df5029b5a55602a0b65f6a0a8dd7ac9a757caea8', '871a798a0dc22b9e667fcc291f5f11ee5c87870d']",True,[]
+8bc1c17585e0f75b3a58c914902f00ff2630394f,"Fixed spacing on code block under Comments.
+
+Even though github was rendering this correctly; I did this to fix tools
+like https://github.com/suan/vim-instant-markdown from breaking syntax.",['b201d2b3b98c336346adc9035304d007a60b07b1'],False,"['README.md', 'README.md']"
+c77a7f19cd7729abe2de452cb851edc542dde72e,"Merge pull request #341 from billabong/spacing_format_fix
+
+Fixed spacing on code block under Comments.","['2c9702c4f9b53abd9709d57767709f5ba8fbc03e', '8bc1c17585e0f75b3a58c914902f00ff2630394f']",True,[]
+20c4d37b335384c86241c3e2578688374432a910,add eslint rules for JSX style from issue #345,['874fb879a8f46aa5dda2ad7788387defe8e493c5'],False,['.eslintrc']
+7ac20d6249aaa77688d30319bf2bb41915b036a5,"Merge pull request #346 from justjake/jake/eslint-react
+
+add eslint rules for JSX style from issue #345","['874fb879a8f46aa5dda2ad7788387defe8e493c5', 'f87ddc012f12dac91f28b5be0fa6d2d522e2e2bb']",True,[]
+2539557e98f802a00513719ed9dd87891c7cde4f,"Change Chinese Translation to a more official like version
+The current Chinese version translated by adamlu is a modified version which as he said change/delete some rules from the original and it's base on the version 2 years ago. I transalte a new version base on current style guide of es5 version.",['5cbb666427b143125a7f715d965d535c90d19a36'],False,"['README.md', 'README.md']"
+a872822618609db62f3ce847b353477e1bc60a9d,"Merge pull request #352 from sivan/master
+
+Change Chinese Translation to a newer version","['c5ed9096f9f5c888a5e053c5f9a05f7fa290860e', '2539557e98f802a00513719ed9dd87891c7cde4f']",True,[]
+ae84fbe0076119dbcdaac3d400510b4e4c2e9eb8,Fix typo,['10f6d6a0d24605edafdb38dea8e702b46a5c6716'],False,['README.md']
+8281437430e8f40c518d57df55da750b843555f7,"Merge pull request #375 from mdarse/patch-1
+
+Fix typo","['10f6d6a0d24605edafdb38dea8e702b46a5c6716', 'ae84fbe0076119dbcdaac3d400510b4e4c2e9eb8']",True,[]
+4a19aa8575e45e838f63097e0fed3f4e056a0d29,Fix Back to Top link spacing,['0627472f55c406f87c534a4b9f515a416b496c1d'],False,['README.md']
+592223611f4582194512fef7c54e6282f8cd1b39,Change style guide of point 23.3,['8281437430e8f40c518d57df55da750b843555f7'],False,['README.md']
+a8823a456551c9ee7e5c4d1f82a303ef392f043b,"Merge pull request #381 from dimitardanailov/patch-5
+
+Change style guide of point 23.3","['8281437430e8f40c518d57df55da750b843555f7', '592223611f4582194512fef7c54e6282f8cd1b39']",True,[]
+7b64a9dc1c0e9b2b0a1fa127127005f1a858c180,fix doc url and little typo,['2626e0ba914f9a132aba34906dba1582ccf1cec4'],False,"['README.md', '.eslintrc']"
+7b336c737e68829c662ce24c0a64e5636bbc82e5,"Merge pull request #382 from framini/patch-2
+
+Fix doc url and typo","['a8823a456551c9ee7e5c4d1f82a303ef392f043b', '7b64a9dc1c0e9b2b0a1fa127127005f1a858c180']",True,[]
+4eea06235bec6698efceb431ba00b0a7927af69d,"Fixed typo in 9.4
+
+Line read `contructor(options = {}) {` 
+
+Edited to `constructor(options = {}) {`
+
+No other lines were edited or changed.",['8d2a83385795b8a3763890a344f9592e36ed9407'],False,['README.md']
+70024df2c31edd3d9c92ae8e42f64e910ce13b0e,"Merge pull request #397 from Ryan-McBride/patch-3
+
+Fixed typo in 9.4","['8d2a83385795b8a3763890a344f9592e36ed9407', '4eea06235bec6698efceb431ba00b0a7927af69d']",True,[]
+13fe13bb3729cebb4c41606bda4b50050089cdb6,"Fixed typo in 13.4
+
+A comment in the example of section 13.4 had 'unnecessary' spelled as 'unnessary'",['70024df2c31edd3d9c92ae8e42f64e910ce13b0e'],False,['README.md']
+23b3f4b8f9b92e0430968c0d43574af76b8c2f8f,"Fixed typo in 19.2
+
+'modern' was spelled as 'mordern' in both the good and bad examples of section 19.2",['70024df2c31edd3d9c92ae8e42f64e910ce13b0e'],False,['README.md']
+060944d61f102356568aabc7641ac7f5aeb9dc0b,"Merge pull request #399 from Ryan-McBride/patch-5
+
+Fixed typo in 19.2","['70024df2c31edd3d9c92ae8e42f64e910ce13b0e', '23b3f4b8f9b92e0430968c0d43574af76b8c2f8f']",True,[]
+d9b87de58cff5c2a66c2d94325fd4e3c2be3b0da,"Merge pull request #398 from Ryan-McBride/patch-4
+
+Fixed typo in 13.4","['060944d61f102356568aabc7641ac7f5aeb9dc0b', '13fe13bb3729cebb4c41606bda4b50050089cdb6']",True,[]
+81f5d8d489780f8f1d5bc098d1b71b7b8a353f92,fixed typos & removed dead link,['d9b87de58cff5c2a66c2d94325fd4e3c2be3b0da'],False,"['README.md', 'README.md']"
+ef7b5cc64bb6cdf9fb3312e9fec22af6ba22fd5d,"Merge pull request #403 from jonchretien/typo-fixes
+
+fixed typos & removed dead link","['d9b87de58cff5c2a66c2d94325fd4e3c2be3b0da', '81f5d8d489780f8f1d5bc098d1b71b7b8a353f92']",True,[]
+8370c039029100d7ba1076575c0ac3c9362d450d,fixed additional trailing comma - close #393,['ef7b5cc64bb6cdf9fb3312e9fec22af6ba22fd5d'],False,['.eslintrc']
+d3f791816c644b188ea6ae866f07bb6028f3e64e,"Merge pull request #405 from fredericksilva/fs/fixed-additional-trailing-comma
+
+ fixed additional trailing comma","['ef7b5cc64bb6cdf9fb3312e9fec22af6ba22fd5d', '8370c039029100d7ba1076575c0ac3c9362d450d']",True,[]
+1beaa2a6550290754bf3ea6b4221614fdfe0e5fe,"Merge pull request #409 from benjaminapetersen/typo/fix-jedis
+
+Plural Jedi is Jedi.  Sorry, had to do it.  :)","['d3f791816c644b188ea6ae866f07bb6028f3e64e', '89d75d9f708f640b0d99ebdd640d1a9627d9ce55']",True,[]
+232054a26f960927544c9f7d16cc099767995b9a,Fixed a typo on README,['1beaa2a6550290754bf3ea6b4221614fdfe0e5fe'],False,['README.md']
+22ae0766a3697effcc2a45fc1319afeaec4af590,"Merge pull request #410 from denizozger/master
+
+Fixed a typo on README","['1beaa2a6550290754bf3ea6b4221614fdfe0e5fe', '232054a26f960927544c9f7d16cc099767995b9a']",True,[]
+f1d524369113e40e9f023c5e17a6f6f8baf7861d,changed to single quotes to match style,['27d388d9469128c5ed44164a100d92fd25aa5c98'],False,['README.md']
+37a30322a015cb9fd11ee4f482e999299dbe4228,"Merge pull request #367 from christophehurpeau/patch-1
+
+18.6: blocks and blank line: add example with array","['ea4bf2fb23fe21cf0913f39c57f373b9c7d2e525', '53ac64adf5d52e89b34e01a2befe8fa9e990662f']",True,[]
+63bf905ed6ab4d33f75ee4147d9e38745aba4cf3,"[comments] update 17.4, 17.5 examples to follow 17.2. fixes #430",['bd98ed3b285f837382bea08a53656fe16662a27e'],False,['README.md']
+63bece1234b446ec0f1354ca5d8b62e18914383c,"Merge pull request #436 from airbnb/harry/single-line-comments
+
+[comments] update 17.4, 17.5 examples to follow 17.2. fixes #430","['bd98ed3b285f837382bea08a53656fe16662a27e', '63bf905ed6ab4d33f75ee4147d9e38745aba4cf3']",True,[]
+fa1fd87c53612b529da2f8d54d9a537b99cbc07f,"Merge pull request #442 from tomekwi/fix-eslintrc
+
+Get rid of `no-reserved-keys` in the .eslintrc","['63bece1234b446ec0f1354ca5d8b62e18914383c', '3c260d8e8abf4b0653dbbb4e1ade6c8bf1ea64c6']",True,[]
+d2db3b6290da2c3d5f035a7245607c75aa7cc0c2,change duplicate 18.5 to 18.6,['0c29596a7eaf8f03c8a85428014075041098db0f'],False,['README.md']
+c4fdbc2742367ac33d4297de525f8fa246f5dae6,"Recommend exporting `propTypes` as a named export
+
+By exporting `propTypes` as a named export *as well* as attaching them to the ""class"", they can be explicitly imported by tests and other components in a way that aligns with the future ES6 module dependency graph, rather than as an arbitrary property that isn't statically verifiable. Doing both is great imo.
+
+Thoughts?",['909fc8b5d708e890c24c7d42644dc8156a9f4d76'],False,['README.md']
+d2be5f3c74780f4ef466901dea06c926a601b351,"Merge pull request #446 from tschuy/master
+
+change second 18.5 to 18.6","['67c0f0ea7dac3096fdcbd459813c7ed32abf976d', 'd2db3b6290da2c3d5f035a7245607c75aa7cc0c2']",True,[]
+425e1f9cb9a1d14c473e93bb2d365361e1fd2092,"Merge pull request #478 from tayre/typo_fix
+
+s/Javascript/JavaScript","['d2be5f3c74780f4ef466901dea06c926a601b351', '6175c67a79af6fab46898b0cef16e474ec40aa1d']",True,[]
+048e22ea989120dc9b6afe715dc24e7762504aa8,somewhat modularize eslint-config-airbnb; add some tests,['67c0f0ea7dac3096fdcbd459813c7ed32abf976d'],False,"['index.js', 'index.js', 'package.json', 'react.js', 'test-base.js', 'test-react-order.js']"
+fde9c12719db1649dcee075d19883704fb4dd82e,"Merge pull request #479 from justjake/jake/some-small-issues
+
+Modularize eslintrc, add tests","['425e1f9cb9a1d14c473e93bb2d365361e1fd2092', '2d90ebf11b06788f7d686a183182eeacaa767a5c']",True,[]
+c95af97e612db57a242c7c1de29fd4a9754211d4,"Add no-undef
+
+Fixes #454
+Fixes #473",['79bce5f8e1e2dc656f7fc0178ffb639412bf9732'],False,['index.js']
+7619b854b21c6ffdb14ae7d2294f23cb79e0259f,Remove issues from how to add to “in the wild”,['f0619f6ba00e7fe69463bd8106daea79716e0daf'],False,['README.md']
+42004528870547a6dc9970fc67e7e8f7e63116aa,"Merge pull request #517 from hyperoslo/change/in-the-wild-instructions
+
+Remove issues from how to add to “in the wild”","['f0619f6ba00e7fe69463bd8106daea79716e0daf', '7619b854b21c6ffdb14ae7d2294f23cb79e0259f']",True,[]
+58c901c3303610639327a6525613c5c8dfb8f949,use eslint 1.3.0 (fixes #515),['e40ea1c24e09c9fba1b4d95b63ab6283dabd4ef6'],False,['package.json']
+7d0e236b596e85ec42a8747913b0cf57c113522b,"Clarify proper type casting for Numbers
+
+Clarifies when to use `Number` vs. `parseInt` for Number type casting.
+
+Fixes: #523",['58c901c3303610639327a6525613c5c8dfb8f949'],False,['README.md']
+3c3c9a299d8986819af2387e5a4766196480f1e7,Fix link text.,['be61bbd53c93b4937be7c313c87a0a24c6f64be5'],False,['README.md']
+efe7507e65a6ef95f04ffa33297ae397e8b63399,"export default should not be inline with the class declaration
+
+When there are static variables like `propTypes` and `defaultProps`, we shouldn't export them until we have actually set them onto the `Component`. This may change if the current ES7 proposal for static class properties gets accepts, and we update to support it.",['89d1e07882cbcab91c3f51be3d58c77342193909'],False,['README.md']
+ab0a6ca92ba7c43bcb7abb96b6630c46e3a0b2e1,"eslint: Add missing `space-before-keywords` rule
+
+All examples in README.md seem to agree on avoiding missing whitespaces
+before keywords such as:
+
+    if (cond) {
+    }else {       // no space before 'else'
+    }
+
+    try {
+    }catch (e) {  // no space before 'catch'
+    }
+
+This patchs adds the `space-before-keywords` rule as an error (as is
+`space-after-keywords` already).",['89d1e07882cbcab91c3f51be3d58c77342193909'],False,['style.js']
+b056ad09bb321169729ce1c6487056716154fe2e,Flag modification of variables that are declared using `const` keyword as an error.,['01ba082cf32f40de079fbf0ad80b857948cdf25c'],False,['es6.js']
+7b834b989c9829ba0693ff7e3c74eb5ec058c18e,"eslint: Fix `no-mixed-spaces-and-tabs` turn off
+
+Currently the way the rule is defined, mixing spaces and tabulations in
+indentation is allowed. However, the comments and documents seems to say
+the opposite.
+
+This patchs turns the rule on so mixing spaces and tabs is NOT allowed.
+
+Fixes: #539",['893ffb34fe71e31c5e7fbc300429bc9408e5a2ea'],False,['style.js']
+2c172bbe3be04fdd23ba67d92dadc34da843dc20,"Merge pull request #561 from adrienverge/issue-539
+
+eslint: Enforce `no-mixed-spaces-and-tabs`","['893ffb34fe71e31c5e7fbc300429bc9408e5a2ea', '7b834b989c9829ba0693ff7e3c74eb5ec058c18e']",True,[]
+f2f8186d0f878c29209430dd0860745728ee4b53,"Start to write a realistic ""testing"" section",['2c172bbe3be04fdd23ba67d92dadc34da843dc20'],False,['README.md']
+bbeb6a0d38e536cedf79941031d5522cd4f8990a,"Merge pull request #562 from airbnb/ljharb/testing
+
+Start to write a realistic ""testing"" section","['2c172bbe3be04fdd23ba67d92dadc34da843dc20', 'f2f8186d0f878c29209430dd0860745728ee4b53']",True,[]
+f130c0ffa26ae24f2e18bac33bc5cf7f62a2d938,[6.5] add backticks around stray eval. fixes #556,['88d508400941600a71f45a245748346af9e62d1d'],False,['README.md']
+a4e5858a35843f1d73e6c523a31236657fa0a01c,"Merge pull request #566 from airbnb/fix-stray-eval
+
+[6.5] add backticks around stray eval. fixes #556","['88d508400941600a71f45a245748346af9e62d1d', 'f130c0ffa26ae24f2e18bac33bc5cf7f62a2d938']",True,[]
+c501e0d5a667045635938b5ba433eee340b6ffff,Use require.resolve to allow nested extend,['60480c05ea6c2d0f172302f845c39f5f62accb8d'],False,"['base.js', 'index.js', 'legacy.js']"
+a3495e07f484513db203e5d5654e47b221c19f4a,"Avoid the word ""mutate"" while explaining `const`",['60480c05ea6c2d0f172302f845c39f5f62accb8d'],False,['README.md']
+639e3c709ab727c6121245a9c75a6cc783f18649,"Merge pull request #584 from jonathanp/master
+
+Avoid the word ""mutate"" while explaining `const`","['60480c05ea6c2d0f172302f845c39f5f62accb8d', 'a3495e07f484513db203e5d5654e47b221c19f4a']",True,[]
+6debbcdd733bd00fb7c7f155d86e130337f9709b,"Add Section 18.11 - Add spaces inside curly braces
+
+Fixes #593",['ee3759a7eddd2ba96210c90b0d2ff87d9ba6d209'],False,"['README.md', 'style.js']"
+4ccd04b69a8ca915b9637ac63e6f792f73f57553,"I abhor switch statements, but their indentation should be:
+
+```js
+switch (foo) {
+  case 'bar':
+    break;
+}
+```
+
+not what the plugin currently requires:
+```js
+switch (foo) {
+case: 'bar':
+  break;
+}
+```",['6e6a2b91e1335b95cb83d505dc3c27ac11f1dc6e'],False,['style.js']
+2c3b75d256946f3a7c761bf84ee0f45e6bc3952b,"Merge pull request #606 from airbnb/ljharb/fix_switch_indent
+
+[breaking] Fix switch statement indentation rule","['6e6a2b91e1335b95cb83d505dc3c27ac11f1dc6e', '4ccd04b69a8ca915b9637ac63e6f792f73f57553']",True,[]
+326100a7b9bf9493372e5fb0ca5940420ae8bddf,"Merge pull request #605 from airbnb/ljharb/fix_function_spacing
+
+[breaking] Require function spacing: `function <optional name>(`","['2c3b75d256946f3a7c761bf84ee0f45e6bc3952b', '599ca4f1238ed3b57f4f5b721f253d2d1b75cda2']",True,[]
+4c0a70e4358704f4eb39a287bc8a3106825db19c,"[eslint config] v2.0.0
+
+ - separate changelog",['326100a7b9bf9493372e5fb0ca5940420ae8bddf'],False,"['CHANGELOG.md', 'README.md', 'package.json']"
+a31c72a1e5fa56891b35bf63741b34868a66a9b3,"Fix example for section 7.11
+
+The missing newline caused the markdown parser to misinterpret the beginning and end of the code block.",['4c0a70e4358704f4eb39a287bc8a3106825db19c'],False,['README.md']
+f0fb3957144d8388f57be3a44acdb8d98ffc1b4b,"Merge pull request #607 from JonAbrams/patch-1
+
+Fix example for section 7.11","['4c0a70e4358704f4eb39a287bc8a3106825db19c', 'a31c72a1e5fa56891b35bf63741b34868a66a9b3']",True,[]
+721b8cd01fe44aa9167699a041dd7695b38aa64a,Fix syntax highlighting in section 15,['6c89f9587f96688bf0d4d536adb8eb4ed9bf0002'],False,['README.md']
+802725d36632b0963cd67fe5bec49aa863bb0c78,"Merge pull request #615 from winterbe/fix15
+
+Fix syntax highlighting in section 15","['6c89f9587f96688bf0d4d536adb8eb4ed9bf0002', '721b8cd01fe44aa9167699a041dd7695b38aa64a']",True,[]
+514bd87d1a8d96f7259ed4d1bcc9eb64618811a0,"Require space before/after arrow function's arrow (arrow-spacing)
+
+Enable [arrow-spacing](http://eslint.org/docs/rules/arrow-spacing.html) rule, code with space before/after arrow function's arrow is easier to read.
+```js
+() => {};
+(a) => {};
+a => a;
+() => {'\n'};
+()=> {};     /*error Missing space before =>*/
+() =>{};     /*error Missing space after =>*/
+(a)=> {};    /*error Missing space before =>*/
+(a) =>{};    /*error Missing space after =>*/
+a =>a;       /*error Missing space after =>*/
+a=> a;       /*error Missing space before =>*/
+()=> {'\n'}; /*error Missing space before =>*/
+() =>{'\n'}; /*error Missing space after =>*/
+```",['802725d36632b0963cd67fe5bec49aa863bb0c78'],False,['es6.js']
+8c76e4f4862e416fe87d7857bbe4479728006d97,"Merge pull request #617 from frenzzy/patch-1
+
+[eslint config] [breaking] Require space before/after arrow function's arrow (`arrow-spacing`)","['802725d36632b0963cd67fe5bec49aa863bb0c78', '514bd87d1a8d96f7259ed4d1bcc9eb64618811a0']",True,[]
+b1500397e1bba4120b10b850038bfff3177fda42,"[eslint config] enable `object-shorthand` rule.
+
+Fixes #621.",['28a83da1d11a200014c7d33abf95b5b1bbf7b604'],False,['es6.js']
+a7541c9b229a15868d14056025b99f333289f171,"Merge pull request #582 from jkrems/jk-require-resolve
+
+Use require.resolve to allow nested extend","['b1500397e1bba4120b10b850038bfff3177fda42', 'c501e0d5a667045635938b5ba433eee340b6ffff']",True,[]
+0fc31eaf1cd554bb8a0118168c761ace0ad788e0,[eslint config] fix b1500397e1bba4120b10b850038bfff3177fda42,['4ab41ede1bb800fc50defa357a889d3a9aa0667a'],False,['es6.js']
+09bf5e8301fe5484a32192cf2f3262129024bcbc,"Merge pull request #622 from billyjanitsch/jsx-quotes
+
+[eslint config] [fix] Remove deprecated react/jsx-quotes","['60b01bdfb9de42be2032f14bc3fd41b5f6da61a7', 'bbcb1371e57b926f25324d4ea0d24b446f164aa1']",True,[]
+88484cec8d317d3a2675624afbce5ca1b7a45b24,"Merge pull request #627 from amplii/no-param-reassign-with-props
+
+[eslint config] [breaking] update best-practices config to prevent parameter object manipulation","['fcc41eecd76480f34f7bb9084d8cdfcf71528625', 'a533a4fb93c6f1385c2e3ede07a922df6a50dc6a']",True,[]
+4cdc3fe4831c57b0eadd8127ab03a4753382ff78,[eslint config] [breaking] enable `quote-props` rule.,['ccc1fab899d5157ab67871e11206cabadd767f90'],False,"['README.md', 'style.js']"
+eea8efe55130ae24e04e824cd0186e10e30c983d,"Merge pull request #635 from lencioni/no-is-mounted
+
+[eslint-config] [breaking] Enable react/no-is-mounted rule","['0af35c9883f6ebb795c5d317ba8af65e450146de', 'f2dc5043a1038a2db58c3e9c59102f96c960d8f2']",True,[]
+8815205471efaf071bebfaa7eced95c11aea1095,"Merge pull request #421 from chrisngobanh/jshintrc-fix
+
+Rename jshintrc to .jshintrc","['75617bd6197c293155953cfd6fc82fdebdbb397a', '8989a8a51389562e0440af0546b5b284e0e26bda']",True,[]
+ae691883043ed06c32e94e50d3dc5d201190ba79,Removing file extensions. Fixing typos.,['5c3137d7364b65c9e3300682dd53a68fd595bda2'],False,['README.md']
+e12e5f0480c958dabd2476aac8fe1890b3185a9b,Removing name prefix rules.,['ae691883043ed06c32e94e50d3dc5d201190ba79'],False,['README.md']
+fcd1c1d9dcc6cfac83aa0db7b9d203c038d6ad36,"Merge pull request #619 from kesne/jgens/react-cleanup
+
+[eslint config] [breaking] [react] Minor cleanup for the React styleguide","['8815205471efaf071bebfaa7eced95c11aea1095', 'e12e5f0480c958dabd2476aac8fe1890b3185a9b']",True,[]
+e2e4724fbb079c0dc18481bd10443323df2838c1,"Address comments in #639
+
+[eslint] Add comment above `max-len` rule with link to its docs
+[eslint] Change tab width for `max-len` rule from 4 to 2
+[eslint] Replace double quotes around `max-len` with single quotes
+[eslint] Use object form of `max-len` and include all of the options",['f1c249bcd35141f72b3b4e72dae0df210119e9fe'],False,['style.js']
+6d00939747b4843e8f7669074d9ecb88c9786e45,"Merge pull request #639 from chrisngobanh/max-len
+
+[eslint config] [breaking] Define a max line length of 100 characters","['fbf81eba3a02ef2dc4c92b0d98f93a4bad99869d', 'e2e4724fbb079c0dc18481bd10443323df2838c1']",True,[]
+3869c21182e05cc6bc754d077364d41eef6189a5,Fix indentation and spacing.,['aacaca81c87a50e36929147efced03be70364323'],False,['README.md']
+8e54961aeb4008a297559663c4ccdeb760090b1e,"Fix max-len rule definition
+
+The current definition is valid only in eslint@2.x.x, but this package has a dependency on eslint@1.10.3 which doesn't have all those options yet.",['6184703f1ca1c164aeac4efcd1238cfb8d760796'],False,['style.js']
+ceb4195636fb4f40997d0a6dae2af7ff4802fab8,"Merge pull request #651 from gergoerdosi/max-len
+
+[Fix] fix max-len rule definition for eslint 1.x","['6184703f1ca1c164aeac4efcd1238cfb8d760796', '8e54961aeb4008a297559663c4ccdeb760090b1e']",True,[]
+896783d20c5ba3510bd5abf989fb553ed36a2542,"Link newer ESLint rule (namely comma-dangle)
+
+The ""no-comma-dangle"" rule was deprecated in favor or ""comma-dangle"" in
+ESLint v1.0.
+
+See http://eslint.org/docs/rules/no-comma-dangle.html,
+http://eslint.org/docs/rules/comma-dangle, and line 4 of
+packages/eslint-config-airbnb/rules/errors.js.",['ceb4195636fb4f40997d0a6dae2af7ff4802fab8'],False,['README.md']
+766f3585db359b93e77d441a5a1a2deddfbef506,Fix typo,['b54ce438c8e590ae25154277d69a802d247a28d1'],False,['README.md']
+4ca5764a306365a11a83e8dfd533b754ed9f65b0,"Require parentheses
+
+As suggested by @ljharb in https://github.com/airbnb/javascript/pull/579#issuecomment-166981740",['766f3585db359b93e77d441a5a1a2deddfbef506'],False,['README.md']
+ccc1fab899d5157ab67871e11206cabadd767f90,"Merge pull request #579 from tomekwi/fix-braces-text
+
+[guide] Bring back note about braces","['619ff1cfd1c9523e92e3ec0475851eff5cfd5605', '4ca5764a306365a11a83e8dfd533b754ed9f65b0']",True,[]
+77eda9a8e31876e3f1e507ca0ccd581b4031c8d2,"Merge pull request #632 from airbnb/ljharb/quote_props
+
+[eslint config] [breaking] enable `quote-props` rule.","['ccc1fab899d5157ab67871e11206cabadd767f90', '4cdc3fe4831c57b0eadd8127ab03a4753382ff78']",True,[]
+81c58472b6cf6ea486365faf257e97100d85fa7f,Fix a bug introduced in f2afce75e949eacd1ba64e89b863105828976f20 / #581,['77eda9a8e31876e3f1e507ca0ccd581b4031c8d2'],False,['react.js']
+6120656fd236c7076b3ebee007e3e59973435199,Fixed typo in URL,['06595a25f7f0fbaacb2ce499e429eb6896cb436d'],False,['README.md']
+a260d2042fc8344ef7516a3e6e5d15fdb0019560,"Merge pull request #658 from foaly-nr1/patch-1
+
+[guide] Fixed typo in URL","['06595a25f7f0fbaacb2ce499e429eb6896cb436d', '6120656fd236c7076b3ebee007e3e59973435199']",True,[]
+9af944dd0513b95b910cd69371c2d0f2c38f87b3,"[eslint config] [fix] because we use babel, keywords should not be quoted.",['a260d2042fc8344ef7516a3e6e5d15fdb0019560'],False,['style.js']
+4ef335e24276a6c2a46fe7a0674f49cfcff79796,"[eslint config] [breaking] require outer IIFE wrapping; flesh out guide section.
+
+There was lots of discussion [here](https://github.com/airbnb/javascript/issues/21#issuecomment-10203921), but now that we have both a modern build system and an eslint rule requiring terminating semicolons, the concerns with the “crockford” style no longer apply.",['c2fd8fbbd6cf058244024db3ab791ddba15567a1'],False,"['README.md', 'best-practices.js']"
+c778ade84166ab8061d408696f2ce8614491545f,"Fix case type on line 3 comment
+
+Update case type to resemble other comments",['9498b3f7c485f56aa22549b95428aea5d2aa53fd'],False,['best-practices.js']
+ab58d3b68eff9fd45db9bc8c78b99e61016e39f9,"[Tests] run `npm run lint` as part of tests; fix errors.
+
+hat tip to https://github.com/airbnb/javascript/pull/678#issuecomment-172017623",['a4845a82cf41d8589bb28283761ea096346c621c'],False,"['base.js', 'index.js', 'legacy.js', 'package.json', '.eslintrc.json', 'best-practices.js', 'react.js', 'style.js', 'variables.js', 'test-react-order.js']"
+396e4611c42416aa3b2af6ed193c3684251d9f68,[Tests] use `parallelshell` to parallelize npm run-scripts,['ab58d3b68eff9fd45db9bc8c78b99e61016e39f9'],False,['package.json']
+93a957f4f63c076992c6cc487dcb1cc79c31f79d,fix typo,['396e4611c42416aa3b2af6ed193c3684251d9f68'],False,['README.md']
+fb65b9ae04d6215db4825fc07e4f90eac07b4ed7,[guide] fix a few IIFE examples,['018dd6e35940900f277e89008a5c523b7b27f3b3'],False,['README.md']
+aa6a20e23743c886cc98f4fbba9207f70a3e78e4,"Merge pull request #683 from kvzivn/patch-1
+
+fix typo","['fb65b9ae04d6215db4825fc07e4f90eac07b4ed7', '93a957f4f63c076992c6cc487dcb1cc79c31f79d']",True,[]
+4d2578cc83affc21fbddfa3c7753b0c05e0205fb,"Fix PR comments
+
+- Space between function name and args;
+- use `render(){}` syntax in object literal;
+- Fix link to section;",['a568c7cf18f444cc4039fd6866d39b793926e54c'],False,['README.md']
+fb3c4cac200861f2e6dd77e8bf7f29ce9be02d5e,"Fixed minor capitalization change in Hoisting
+
+Not sure if it's an actual fix, but just noticed this was the only comment that had capitalization that wasn't a proper noun",['06746fa39db2fdc940a147d5733f50955e975886'],False,['README.md']
+0839881fd27b226844a757b8b2eaf8c42abf0ea6,"Merge pull request #679 from jshen212/patch-1
+
+Fix case type on line 3 comment","['2c9833fbc2fdc455bcdd4781de389c03f635d51e', 'c778ade84166ab8061d408696f2ce8614491545f']",True,[]
+02e1b4e3959f0580ef5d1921169f3d2fbfab3c41,"Fixed capitalization
+
+Bitshift changed to bitshift",['c25dbac620b258c4421251bc403fffa1051de61e'],False,['README.md']
+760e50704cebff4fa07e237d50a10d4fd8b0234a,"Fixed capitalization
+
+Fixed capitalization of ES6 to match the rest of the README.",['da1d031ff8479e57da013a03e482d429e68519b3'],False,['README.md']
+51510a43c83811406d2098f19e7af90a30918f64,"Fixed capitalization and comment spacing
+
+Fixed line 1219 to have a lowercase 'a' to be consistent with the style guide.
+Fixed line 1831 to only have one space between the // and the =>",['784d029980003d1ff90b472abcd0974496d6d765'],False,['README.md']
+38d9b34b2720a2f26e9fa33365836e26d9a7a44e,"Avoid lexical declarations in case/default clauses
+
+This commit adds guidance warning people to avoid lexical declarations
+in case/default clauses and enables the corresponding ESLint rule.
+
+  http://eslint.org/docs/rules/no-case-declarations.html
+
+We didn't have a section on switch statements yet, so I thought about
+starting one. It seemed like it would best fit between section 15
+(Comparison Operators & Equality) and section 16 (Blocks), but I didn't
+want to mess up all of the following numberings, since people probably
+have references to them. I considered adding this near the end to
+minimize this effect, but it really seemed to belong near these other
+things. I landed on appending it to Section 15 (Comparison Operators &
+Equality) and I think it sorta fits there since switch statements are a
+related concept.",['206e13b1855647c7c66e0a3809f5a8a0b93e54f1'],False,"['README.md', 'best-practices.js']"
+fa4925be82be1bdb8068dd596301632ccc8aeae8,"Merge pull request #712 from lencioni/no-case-declarations
+
+[eslint config] [breaking] Avoid lexical declarations in case/default clauses","['206e13b1855647c7c66e0a3809f5a8a0b93e54f1', '4d74fe1f5ab7e2f67e4ad837387debbf276e3929']",True,[]
+7e15ccf4cb39d370e085c860901cce5d9d01d810,[eslint config] [breaking] disallow unneeded ternary expressions.,['fa4925be82be1bdb8068dd596301632ccc8aeae8'],False,"['README.md', 'style.js']"
+6f1d92851c56752cf5c8bcad134cccea8fbd6ce0,[eslint config] [fix] `s/no-case-declaration/no-case-declarations/g` (from #712),['b6920af58119409c7983f0fa4ea566ee58349a61'],False,['best-practices.js']
+a8461e045328daf2ae8b007301d9cbb6607383bc,[eslint config] [fix] fix `npm run lint`,['6f1d92851c56752cf5c8bcad134cccea8fbd6ce0'],False,['style.js']
+e007ec5be9f54c2a0fdfcfc6e8f193f0ceb11692,"Sort static methods above constructor for React
+
+I think it makes more sense to put static methods above the constructor
+in classes. I would like to update the ESLint configuration to match
+this, but it looks like the react/sort-comp rule does not support it
+quite yet.
+
+  https://github.com/yannickcr/eslint-plugin-react/issues/128",['24e7fd0c147eeb9a2082301af09d44a56b181cf0'],False,['README.md']
+da4213c6dd6b842f72171fc669007185e03902d8,[eslint-v2] fix no-labels rule,['1efb11ca93e6fd3d22c3a09825fcd4c7c3c896e8'],False,['best-practices.js']
+3aa8c584871474a5bacbc32158e8e76d1ccf94df,[eslint-v2] fix keyword-spacing style and sorting,['4f32315b24e9545a4e5f8c226a989dbafc1c2099'],False,['style.js']
+d952efed242e9f4e25f3a4b45b7f62075a1a26e2,[Fix] `eslint` peerDep should not include breaking changes.,['44cc90f31cf09655a0363827af082335defd619a'],False,['package.json']
+5109c849268020266b300229d7efd2de50f94c21,[eslint-v2] fix no-labels rule,['75807b9d5ead326be45f4719d81bda52d2bbb32a'],False,['best-practices.js']
+91b83650b006764d1b235b79c265151c8b00ba19,[eslint-v2][constructors] fix bad + good examples,['1cbc628c49fe8e9540028f8a560b43ebdd08c82b'],False,['README.md']
+1f12a12be474bc9f61b2b1556549e865f3be114c,[eslint-v2] fix empty constructor example,['e1a087fbb1eeb861acce7bab67476ccd4dd080e0'],False,['README.md']
+65609373bfe33e5d86b2ac04ff2fd7f0aaa6a8a2,"[eslint-v2][template strings] add template-curly-spacing rule, fix #716",['1f12a12be474bc9f61b2b1556549e865f3be114c'],False,"['README.md', 'es6.js']"
+e0959d0f1d35105a9db8d972e0f844daf0dfa072,[eslint-v2] fix rule links in readme,['65609373bfe33e5d86b2ac04ff2fd7f0aaa6a8a2'],False,['README.md']
+3983d380edd22fe7546f9fef2d04fc69a5db04f7,[eslint-v2][arrays] fix example,['b79e9512801f798698f15baaaec92c328c0af6c0'],False,['README.md']
+0f32b96c125784e0db507682d3fb2fe05098e903,[changelog] update changelog for 6.0.0,['3983d380edd22fe7546f9fef2d04fc69a5db04f7'],False,['CHANGELOG.md']
+4574659833a8d1c6c45833bb06743ababa6929e8,"rearrange comma-dangle rule to match es5/es6 codestyles, fixes #741",['aa9add108e71dc69c9baa984894ce5914c973251'],False,"['errors.js', 'es6.js', 'legacy.js']"
+8a6f00968db332594d1181ffa05894c2fb3fc906,"Fix no-useless-constructor example.
+
+Per https://github.com/airbnb/javascript/pull/730#discussion_r53565774",['b648de3233c157c81b9d6301d061e16136ca1d29'],False,['README.md']
+12fb48611ad2c035ba0aa30ccb5a708263867261,"Disable `newline-per-chained-call` until `eslint`’s bug is resolved.
+
+bug: https://github.com/eslint/eslint/issues/5289
+
+Closes #748.",['8a6f00968db332594d1181ffa05894c2fb3fc906'],False,['style.js']
+50ff33de88f6f1363a27e61d59f2c950cf0bd9f8,"Small typo fix in 18.6 'bad'-example.
+
+Function call 'class()' to 'classed()'.",['f4e94ade2ba9f42edea07977f4b0bfcb90c448d5'],False,['README.md']
+f12b2a195aa53447cc2d902628af7e76d35ec447,"[Dev Deps] update `babel-tape-runner`.
+
+Closes https://github.com/wavded/babel-tape-runner/issues/11",['50ff33de88f6f1363a27e61d59f2c950cf0bd9f8'],False,['package.json']
+33f1ddb4c534e0db605cca3d4060113b32c248ce,"Disable `no-confusing-arrow` until eslint’s bug is resolved.
+
+bug: https://github.com/eslint/eslint/issues/5332
+
+Closes #752.",['f12b2a195aa53447cc2d902628af7e76d35ec447'],False,['es6.js']
+db8b07f51ad54682bd0225a42d9d5325044ab8f2,Fixed README typo,['6c637b97d919f9434ea00fedaa367794e0cad49e'],False,['README.md']
+cba519a4424286bc3a2a9374b64d35e706be5632,Updated CHANGELOG.md,['714f71d1d2f9788742e0949dabb0cee4677e8929'],False,['CHANGELOG.md']
+d321f68c462acbec50d9cf6a977f1a4a50e8924e,Fix word spacing and preserve consistent quotes,['b32122d5ad0c41ea28677aa9b899da7e7330170a'],False,"['best-practices.js', 'react.js']"
+7684892951ef663e1c4e62ad57d662e9b2748b9e,fixes tiny typo's on JSCS rules,['d321f68c462acbec50d9cf6a977f1a4a50e8924e'],False,['README.md']
+607ad012eeaa4e72601b381d49ddb905dee2f138,change wording for 8.2 for consistency,['7684892951ef663e1c4e62ad57d662e9b2748b9e'],False,['README.md']
+246cde0de837218c16595246f81c900320c57c0b,Fix the typo error in JSHint link,['607ad012eeaa4e72601b381d49ddb905dee2f138'],False,['README.md']
+32e3e0f45a60aeed038619116548de6ff8197c16,"Update README.md
+
+Add colon to TODO and FIXME.",['246cde0de837218c16595246f81c900320c57c0b'],False,['README.md']
+762b7510ab8ff0e3f282c9ae6cc985f8262038a8,fixed a broken link to REI's JS style guide,['32e3e0f45a60aeed038619116548de6ff8197c16'],False,['README.md']
+4709e644c0a622e020c3d5446a4cb1f22e910b10,"[guide] Permanent links.
+
+ - Preserve the original links, because cool URLs don’t change.",['9e87e1d13bb8258adcdc7b05c7bece52adc1abbb'],False,['README.md']
+6f125a5e85840c08594bfc2a3d1c181282634fc9,fix react/prefer-stateless-function link,['8fe2f9ed522107e5f22794402342006fa2139aff'],False,['CHANGELOG.md']
+9eb24d6b61515747f5a67f179ddb3d73ad385121,"[editorial] clean up some constructor examples
+
+Fixes #792",['6f125a5e85840c08594bfc2a3d1c181282634fc9'],False,['README.md']
+5ded256d3fab29b7b3fa42238093b9af632fb32b,"[Fix] re-enable `no-confusing-arrow` rule, with `allowParens` option enabled.
+
+Per #752, fixes #791.",['9eb24d6b61515747f5a67f179ddb3d73ad385121'],False,['es6.js']
+8db205c4d2309fcf31c2681366bdd35d68c77dff,"Fix ""object destructuring for multiple return values"" example
+
+... to use the same destructured properties in the good and bad code.",['f796cfc81f14d80b67f341a436c4c31f3500bcd1'],False,['README.md']
+24565121c1847fbf27d0854a1d2fc9accbbef4df,[eslint config] [breaking] add `no-duplicate-imports` rule.,['5ce6fb1eae2b0a948e526d127654b044f34d3b1b'],False,"['README.md', 'es6.js']"
+81241b83cf3a95c1560d4080c39bf8b57381656f,[eslint config] [breaking] add `no-useless-escape` rule.,['24565121c1847fbf27d0854a1d2fc9accbbef4df'],False,"['README.md', 'best-practices.js']"
+062929ee5f5ca368b2b36390fc36aed34ed96797,[eslint config] [breaking] error on debugger statements,['5ec8765a28923671a59465901c03a7f997eb861a'],False,['errors.js']
+76e1e4c1de263948f9c35bf43c4de526b17bebb9,"[eslint config] [breaking] Add `no-dupe-class-members` rule + section.
+
+Closes #785.",['5b9f081d1dac5240f60313784de316c9a63fde62'],False,"['README.md', 'es6.js']"
+c5366984b3b119891e36f40651df6da334e649c3,"Merge pull request #813 from lencioni/jsx-a11y
+
+[eslint config] [react] [breaking] Add accessibility rules to the React style guide + `eslint-plugin-a11y`","['6e770062bb84aa054ff939c1b805cbb12e9195a1', '3f73e35b1874128161a97acbc6a299a801ec077b']",True,[]
+7c0bb0a6de0660d21166a4762330b27746e9244a,[eslint config] [breaking] enable `react/require-render-return`,['7b5731157f31d2dfd4aeb45180cfd6812c8b0f9c'],False,"['react.js', 'README.md']"
+f5d6e9646c3b6b450380d3bc952eac662768debc,"[guide] Update eslint rule for keyword-spacing, small fix for consistency",['7c0bb0a6de0660d21166a4762330b27746e9244a'],False,['README.md']
+a929776d67ea3471993356e5819c4099963175d7,"Improve guideline for image alt text
+
+After digging into this rule a little more with @evcohen, we believe that
+it is okay for images to have an empty string for alt text and have
+updated the plugin to reflect that understanding. This commit bumps our
+dependency on the rule to include this fix and updates our guideline to
+match.",['f5d6e9646c3b6b450380d3bc952eac662768debc'],False,"['package.json', 'README.md']"
+bcc5c5d8dd55a69f49421fc910c35211b241c824,[Tests] run subpackage tests at top level.,['93b0a10eb725b54a6601d32e6267410508fc3a8a'],False,['.travis.yml']
+0fe4f558a683c4f98501fc39e66ef8a499cfdfce,"Enable import/no-unresolved and import/export rules
+
+These come from eslint-plugin-import. We've been using these rules for a
+while at Airbnb so it seems like a good time to include them in this
+configuration. We've found the no-unresolved rule in particular to be
+very helpful when working across a large codebase.
+
+  https://github.com/benmosher/eslint-plugin-import
+
+Since the no-unresolved rule works on commonjs, I decided to include it
+in the node configuration as well.
+
+I think there are some more rules from this plugin that are worth
+enabling, but this seems like a great place to start.",['662519efc090802f6ee7100db942604d1e568a5d'],False,"['README.md', 'package.json', 'es6.js', 'node.js', 'react.js', 'test-base.js']"
+4af3f9755efb5e098cbcfd77b6f781c229fc92ab,"Merge pull request #825 from lencioni/eslint-plugin-import
+
+[eslint config] [semver-minor] Enable import/no-unresolved and import/export rules","['662519efc090802f6ee7100db942604d1e568a5d', '0fe4f558a683c4f98501fc39e66ef8a499cfdfce']",True,[]
+92a66ccc7caeaf935653b5e9fed6d02f90ce6805,"[guide] [breaking] Disallow leading underscores - there’s no such thing as “private properties”.
+
+Per https://github.com/airbnb/javascript/issues/490#issuecomment-209126331",['4af3f9755efb5e098cbcfd77b6f781c229fc92ab'],False,['README.md']
+56e6815a84f3a6d5447fe4bb6fdf5d0b1027c631,"[guide] Attempt to clarify filename conventions
+
+Fixes #817.",['eb4f7cb3a822c168058159675d920fdc95c5d61e'],False,['README.md']
+688ef3c2ebbe545da5b2e693502bb2bc926fe3c6,"[guide] remove AIIFE to avoid CallExpression quirk.
+
+Fixes #828.",['56e6815a84f3a6d5447fe4bb6fdf5d0b1027c631'],False,['README.md']
+c29560441eea62f32dedbaa6e67f73f8ee4affa9,[eslint config] It doesn’t matter which react version we install since we’re just testing module resolution.,['cbd2c38da838be1c34751fb841a61b9fcba7e3cb'],False,['package.json']
+f468a52d8281269c3246aa8cdcaa14445694ebf9,[eslint config] [tests] remove parallelshell,['f268237c71ef17efccdcec8e680fad78397c3966'],False,['package.json']
+3efe10d42eb14c739128090b9647137301e812fd,[eslint config] [breaking] disallow empty methods,['c97bd772b4b3b8848a946dd016fa50648299661d'],False,"['best-practices.js', 'test-react-order.js']"
+140ce8b56c9cd1258809e534b6f8c46913ae0f99,[eslint config] [breaking] disallow empty restructuring patterns,['3efe10d42eb14c739128090b9647137301e812fd'],False,['best-practices.js']
+6efcda314df2e303c3c99159c0a93eca17a4b131,"[eslint config] [breaking] enable `no-restricted-syntax` rule.
+
+Forbids “with”, “break”, “debugger”, “for..in”, and labels.",['140ce8b56c9cd1258809e534b6f8c46913ae0f99'],False,['best-practices.js']
+e1cbcbecf6b37953226881e209d2003cdf9a4dc1,[eslint config] [breaking] enable `global-require` rule,['6efcda314df2e303c3c99159c0a93eca17a4b131'],False,"['node.js', 'test-base.js']"
+52d3401f953afcf09ca64dbbb177c6284832aae6,[eslint config] [eslint config base] [breaking] Migrate non-React rules to a separate linter config.,['bdbecf23e2320c5429c48d11ac3ed9941a1f5dbc'],False,"['.travis.yml', 'README.md', 'README.md', 'package.json', '.eslintrc', 'CHANGELOG.md', 'README.md', 'index.js', 'legacy.js', 'package.json', '.eslintrc.json', 'best-practices.js', 'errors.js', 'es6.js', 'legacy.js', 'node.js', 'strict.js', 'style.js', 'variables.js', '.eslintrc', 'test-base.js', 'README.md', 'base.js', 'index.js', 'legacy.js', 'package.json', 'react.js']"
+763416260ab791d2efd2cf175100d8e506bb7eaa,[guide] fix broken deep link to 'testing--yup',['52d3401f953afcf09ca64dbbb177c6284832aae6'],False,['README.md']
+13cddaf51e3479ba208a7d13dd01dbca1ba30463,"[eslint config] [breaking] enable `react/jsx-curly-spacing` rule.
+
+Fixes #693.",['02414502b6b8ad31bee50a8e999a27b68b16dda1'],False,['react.js']
+3c915dd6860e03e13fae55a42894d95b355e1058,"[eslint config] [base] [patch] remove “break” statement from restricted syntax.
+
+Per https://github.com/airbnb/javascript/issues/840#issuecomment-212541010",['897732f6f0f711d12e9cbe8ecab10435c6c3835e'],False,['best-practices.js']
+f0b6eea9d6059b3ef9e335b73901acac09d3e5f1,"[eslint config] Make `eslint-config-airbnb-base` a regular dependency.
+
+Per https://github.com/airbnb/javascript/pull/829#issuecomment-212559831",['277b08710f90aa7fdfd2ed82274b6186613625a1'],False,"['README.md', 'package.json']"
+49c5f3d8624a52945f1267d5d365b54d85c0a151,[Tests] allow `npm install`/`npm test` in the project root to work in both sub packages.,['f0b6eea9d6059b3ef9e335b73901acac09d3e5f1'],False,['package.json']
+44ae49ebcf69dc68698562e5711840c83b1b17fd,"[eslint config] restore `jsx-quotes` rule, lost in 52d3401f953afcf09ca64dbbb177c6284832aae6
+
+Fixes #846.",['2d81a2db4a6784ec26fa434cabf6c31bd398cc3b'],False,['react.js']
+a71bffa5e3515c83023595e2716fee3bc75da7e5,"Fix README ""4.5"" bad reduce example",['79af88d9d6f445629fd0f76cb253bb0f27dd8a4f'],False,['README.md']
+1e1772b340702e55d0933997d5af733afb8c7584,"[guide] [es5] Update whitespace and missing function names.
+
+Per https://github.com/airbnb/javascript/issues/55#issuecomment-214672292",['7431ef13a0b7099953e45cce80b554eb9c9f8c73'],False,['README.md']
+31e84122318f555084eee12392fa3b5d2df27924,[eslint config] [base] [breaking] enable `no-unsafe-finally` rule,['d85abc587a5c31241ecafcd9398456e5773b00e5'],False,['best-practices.js']
+f806ed6bb35cf7dbd1b316cd7995d0d32db7a70e,[Tests] on `node` `v6`,['dc4130cdbc2b9b3de4526e226211707257d5dd0d'],False,['.travis.yml']
+6c25bcf9c133e75f20bd7acec8877f310a8d9589,"[eslint config] [base] [breaking] Re-enabling `newline-per-chained-call`
+
+Per https://github.com/airbnb/javascript/issues/748#issuecomment-216690840 and https://github.com/eslint/eslint/pull/5365",['d1f2416ffa2272730c6df3a7913d38bd701d4f35'],False,['style.js']
+fd5c71c0a90c35287dc9397ab7aa15080ea36354,"[eslint config] [base] [breaking] widen `no-extra-parens` to include everything, except `nestedBinaryExpressions`
+
+Per https://github.com/eslint/eslint/issues/3065#event-626005438",['6eec3a6df7aa357ad3f834077a321711f555c9f5'],False,['errors.js']
+83c431d655e4aabafddfcc56691a39dc3f039b9c,"[eslint config] [base] [breaking] enable `no-class-assign` rule, to pair with `no-func-assign`",['e9aec9e94f7c94bdfeb3cfb419310e4eb3d36593'],False,['es6.js']
+92a3d5570b30a237307548023fd78bdf0f96d48a,[eslint config] [base] [breaking] enable `import/no-mutable-exports`,['36e088759f33556b5e2d017ff66d2741fb5e22e0'],False,"['README.md', 'es6.js']"
+56a524a47ed0b71f348d6bfaa42289d562f6bc5b,"[eslint config] [base] [patch] re-disable `no-extra-parens`
+
+Fixes #869, #867.",['ba5d9f0cd7baee0a30d3c06872dc83131c476500'],False,['errors.js']
+d68a067f2b244cf9f8fd90afd7029305b0c1b856,"Prepare to enable import/prefer-default-export
+
+This was recently added to eslint-plugin-export. It enforces that
+modules that only have a single export use a default export instead of a
+named export. Since this is a breaking change and we want to cluster
+breaking changes, I marked it as 0 for now with a TODO to enable when
+that time comes.",['5acae06653283132f07670d6535e151f651fd47b'],False,"['README.md', 'es6.js']"
+c7faa91328ed86f68f08bbf08bf7ccc82d48c6aa,"[eslint config] [tests] Even though the base config may not be up to date in the main package, let’s `npm link` the base package into the main one for the sake of travis-ci tests.",['788fb2297a54f5ab9f1f310c3740b73176727a99'],False,['package.json']
+8d6d227848d0f60e92d755413dcea9cfb874053f,"[eslint config] [*] [tests] Even though the base config may not be up to date in the main package, let’s `npm link` the base package into the main one for the sake of travis-ci tests.
+
+(Followup from c7faa91328ed86f68f08bbf08bf7ccc82d48c6aa)",['638b312b6cce89db820f2cab1d3129ef49bad471'],False,"['.travis.yml', 'package.json', 'package.json', 'package.json']"
+3948eb66d6cc991220f65a476c3a925241b6ecd7,[eslint config] [base] [breaking] re-order rules,['10f4dd88aaab6a8456373a3a0c5fc00ada3c4172'],False,"['legacy.js', 'best-practices.js', 'errors.js', 'es6.js', 'legacy.js', 'node.js', 'style.js', 'variables.js']"
+34ccf905d65c2f0a7f946919f5d2c703f359d973,[eslint config] [base] [breaking] migrate import's settings/rules to a separate file.,['3948eb66d6cc991220f65a476c3a925241b6ecd7'],False,"['index.js', 'es6.js', 'imports.js', 'node.js']"
+e32079d6c4c6eebfec107f3bb4e61ba80f7f00eb,"Merge pull request #881 from akai/re-order-rules
+
+[eslint config] [base] [breaking] Rearrange rules/rule files.","['10f4dd88aaab6a8456373a3a0c5fc00ada3c4172', '34ccf905d65c2f0a7f946919f5d2c703f359d973']",True,[]
+8e125fa07cd9214b5e31e59095707ffae3284d13,"[eslint config] [base] [breaking] Enforce proper generator star spacing.
+
+Fixes #887.",['312cd01a959ebe175443ce15b4935f4a916c35d2'],False,"['README.md', 'es6.js']"
+429339ee3740a0fd9c64b9cd207f27a7fb84ecc1,"[eslint config] [*] fix quoting of rule properties.
+
+Per #885.",['8e125fa07cd9214b5e31e59095707ffae3284d13'],False,"['.eslintrc.json', 'best-practices.js', 'errors.js', 'es6.js', 'imports.js', 'node.js', 'strict.js', 'style.js', 'variables.js', '.eslintrc.json', 'react-a11y.js', 'react.js']"
+c247fd754b779df744c1c8ce34eed0ef37f09893,"Avoid using an array index as `key` prop, prefer unique ID",['4c4210f23d79d5eafdddbbce069a7d35f6e12ec0'],False,['README.md']
+1db55228882a2a6e4fefb8dd89bc796de93fe5a7,"Fix typo
+
+disallowSpacesInsideObjectBrackets -> requireSpacesInsideObjectBrackets",['c247fd754b779df744c1c8ce34eed0ef37f09893'],False,['README.md']
+d97d62a2ff0341bcd9306b99cc6c510b8c9b1192,Fix react dev dep version,['1db55228882a2a6e4fefb8dd89bc796de93fe5a7'],False,['package.json']
+267eec57c672a1dfc5fb3e28f6e9739c2af82950,Fix invalid code snippet in 23.2.,['d97d62a2ff0341bcd9306b99cc6c510b8c9b1192'],False,['README.md']
+3fb9db5a742d04d3bc1e4f9fc27e4544091a66c0,"fixing broken link
+
+Google moved their style guides to Github (from an SVN server), and this link was broken",['267eec57c672a1dfc5fb3e28f6e9739c2af82950'],False,['README.md']
+eb76edea3277fc14fa4a2369e4e2279c04117fd0,"[eslint config] [*] [tests] Only run `eslint-find-rules` on prepublish, not in tests.",['3fb9db5a742d04d3bc1e4f9fc27e4544091a66c0'],False,"['package.json', 'package.json']"
+d9cb343b518349982f3b094f2ce48eda8347e6c7,[eslint config] [base] [breaking] enable `unicode-bom` rule,['ab4baf457e37d15513caf1fc5dde9512fd72293d'],False,['style.js']
+4700d9986452d119cd93faaa0f48e391b4c88c4a,[eslint config] [base] [breaking] enable `no-useless-rename` rule,['d9cb343b518349982f3b094f2ce48eda8347e6c7'],False,['es6.js']
+f41b4df02458638525779c4ce3e496a9b588ebe5,[eslint config] [base] [breaking] enable `no-prototype-builtins` rule.,['4700d9986452d119cd93faaa0f48e391b4c88c4a'],False,"['README.md', 'errors.js']"
+5651e607f3268e9a69a72103a4f3a8c067e16efc,[eslint config] [base] [breaking] enable `object-property-newline` rule,['001efc722cb2e74d5596db5d96cf79605d407b9b'],False,['style.js']
+6980cce17f8339b5466b14d08b7ab00005fa2990,"[eslint config] [base] [breaking] enable `import` rules:
+ - `no-named-as-default`
+ - `no-named-as-default-member`
+ - `no-extraneous-dependencies`
+ - `extensions`",['5651e607f3268e9a69a72103a4f3a8c067e16efc'],False,"['imports.js', '.eslintrc']"
+ee2cb41ec4ccc1bbf434c06a89643020aa2fb3b8,"[eslint config] [base] [breaking] enable `no-mixed-operators` rule.
+
+Specifically, this is to require parens to avoid cognitive overhead about precedence.",['6980cce17f8339b5466b14d08b7ab00005fa2990'],False,['style.js']
+51f9b0450c0cf6a21b5972f357841f39eb2180ac,"[eslint config] [base] [breaking] enable import rules: `newline-after-import`, `prefer-default-export`",['ee2cb41ec4ccc1bbf434c06a89643020aa2fb3b8'],False,['imports.js']
+622a3bc1ab3c94333373293eae12983a96e85516,"[eslint config] [base] [breaking] re-disable `newline-after-import`
+
+Per https://github.com/benmosher/eslint-plugin-import/issues/386",['51f9b0450c0cf6a21b5972f357841f39eb2180ac'],False,['imports.js']
+d0973e8e36131668c06ff7a929ba735dbd0173c0,"[eslint config] [base] add TODO for `object-curly-newline`.
+
+ref https://github.com/eslint/eslint/issues/6488",['622a3bc1ab3c94333373293eae12983a96e85516'],False,['style.js']
+a597da56ca9047d1c0ac8e1a6db318f78111e723,[eslint config] [base] [breaking] enable `rest-spread-spacing` rule,['d0973e8e36131668c06ff7a929ba735dbd0173c0'],False,['es6.js']
+34a9f076df1b57069f235393cd895b2c25cd893f,"Minor typo: ""coxcomb graph"" v/s ""coxcomb chart""
+
+The ""bad"" and ""good"" diffs in section 19.2 had different text; making them the same to avoid confusion about what the difference is.",['28a04a3a45d169bbb6fa8cc9a3ff94e98a6a6a2a'],False,['README.md']
+17b773e613128e4021e19dd2f3640a2de5af9a60,"Merge pull request #902 from KevinGrandon/no_string_refs
+
+[eslint config] [react] [breaking] Prevent using string refs.","['34a9f076df1b57069f235393cd895b2c25cd893f', '36d15615968e267d11f6d2be509e5625900a7e6c']",True,[]
+9028379f872b175b085e78ac67e5a4c81f50c4d5,"[eslint config] [base] [breaking] re-disable `import/extensions` rule
+
+ref https://github.com/benmosher/eslint-plugin-import/issues/390",['c9bcc7ef36d641415223b02592dfa0c3ab12597b'],False,['imports.js']
+1f87054e4b4ddcaf5977f0d3ca2fef4707d7ba95,"[eslint config] [base] [patch] `newline-per-chained-call`: bump the limit to 4.
+
+Specifically, this is to allow this frequent pattern:
+```js
+$.ajax({
+  …
+}).done(() => {
+  …
+}).fail(() => {
+  …
+}).always(() => {
+  …
+});
+```",['9028379f872b175b085e78ac67e5a4c81f50c4d5'],False,['style.js']
+b3a02ae982140ff0a386d87465bc85462eab4e85,"[eslint config] [breaking] [base] update `eslint` to v3
+
+ - drop support for node 4.",['d282e059b1351f264638e208c1f221c6d9342279'],False,"['package.json', 'style.js']"
+6db1af173c9870981ec4a147018b57077a5f6c76,[eslint config] [*] [Tests] stop testing < node 4.,['339861022e539de8bff054bbef9da7aac4ca6422'],False,['.travis.yml']
+7816731d4dabfcf6b01a22f70e497f0a24a14da0,"Allow importing devDependencies in tests
+
+This rule seems to be giving me errors for some places we have imported
+devDependencies in our tests such as tape and eslint. This is actually
+okay, so we just need to configure this rule to allow devDependencies
+for tests.
+
+While I was at it, I added some whitespace to improve readability and
+reduce the likelihood of merge conflicts.",['6db1af173c9870981ec4a147018b57077a5f6c76'],False,"['.eslintrc', 'test-react-order.js']"
+7fb8b037147b69bd8e759e93b3ca36a2916a1d97,"Document for-in restricted usage
+
+https://github.com/airbnb/javascript/issues/851#issuecomment-213834028",['7816731d4dabfcf6b01a22f70e497f0a24a14da0'],False,['README.md']
+a9bfee01cd451679062430fa11d40fa82ce9b469,"[guide] Add link to `eol-last` rule.
+
+Fixes #945.",['3ad24049740c73fcb3219a7b05ee8cd132075311'],False,['README.md']
+b352ec6a4a8ff61324e9640289222a481bc7af50,"[eslint config] [base] [fix] Prevent trailing commas in the legacy config.
+
+Fixes #950.",['a9bfee01cd451679062430fa11d40fa82ce9b469'],False,['legacy.js']
+6039804cc3b909c0bbb15069a3d469d521fb0306,[eslint config] [base] [fix] repair accidental comma-dangle change.,['af594687be88ddcb9de1138ae0eaa56999b8f9c1'],False,['index.js']
+ca9c322790d88a2500c60093f404ab06c428a93e,"[eslint config] [base] [breaking] enable overlooked rules:
+
+ - `linebreak-style`
+ - `new-parens`
+ - `no-continue`
+ - `no-lonely-if`
+ - `operator-assignment`
+ - `space-unary-ops`
+ - `dot-location`
+ - `no-extra-boolean-cast`
+ - `no-this-before-super`
+ - `require-yield`
+ - `no-path-concat`
+ - `no-label-var`",['762177eb3b3efc2b22078451ae0a726a58021c7a'],False,"['best-practices.js', 'errors.js', 'es6.js', 'node.js', 'style.js', 'variables.js']"
+623dc44bb9990dd90c0540be8309c7b5a3f6217a,"[eslint config] [*] [docs] update the peer dep install command to dynamically look up the right version numbers when installing peer deps.
+
+Fixes #956.
+
+This command would be simpler if https://github.com/npm/npm/issues/11213 is ever implemented.",['ca9c322790d88a2500c60093f404ab06c428a93e'],False,"['README.md', 'README.md']"
+df8627d72fa8b8093ca5d5e909411c9d5ac466ae,[eslint config] [*] [tests] fix prepublish scripts.,['3594ee94aca2dd247cdfa6e7e684a0fd58d965f0'],False,"['package.json', 'package.json']"
+4921e03a7b0fa904a569be9f5ea94dc526d21bdb,"[eslint config] [base] [breaking] enable `import/newline-after-import`
+
+Per https://github.com/benmosher/eslint-plugin-import/issues/386 / https://github.com/benmosher/eslint-plugin-import/issues/441",['df8627d72fa8b8093ca5d5e909411c9d5ac466ae'],False,"['package.json', 'imports.js']"
+9d598c3563819a42f23f2ad19dd23a2f6e515a05,"[eslint config] [base] [breaking] enable more overlooked rules:
+
+ - `no-void`
+ - `constructor-super`
+ - `prefer-spread`
+ - `no-new-require`
+ - `no-undef-init`",['4921e03a7b0fa904a569be9f5ea94dc526d21bdb'],False,"['best-practices.js', 'es6.js', 'imports.js', 'node.js', 'variables.js']"
+892128366a387023eb5462f0cd4c1eab3593ad3d,change 'conjunctions' to 'contractions',['9d598c3563819a42f23f2ad19dd23a2f6e515a05'],False,['README.md']
+da3eb59b3952f9c0b2fb45187a4d9d5177c3d29a,"Merge pull request #961 from idugcoal/master
+
+Change 'conjunctions' to 'contractions'","['9d598c3563819a42f23f2ad19dd23a2f6e515a05', '892128366a387023eb5462f0cd4c1eab3593ad3d']",True,[]
+616233c8b29f3c4be0e0deb61b306b8ce82acec5,[eslint config] [base] [breaking] enable `no-unexpected-multiline` rule,['bbfb9600dcbe207ad0694dc886622c02a2ed7ac5'],False,['errors.js']
+eea5f0f5f5cf8a35cb5b618b0d7e247fbd569e34,"[eslint config] [base] `no-unused-expressions`: flesh out options
+
+Fixes #963.",['1fb300c6c72077e14391c526ccf7de2c22810cb3'],False,['best-practices.js']
+4c8f78921ff887843f16993442a19bb01805cc66,"Add guideline for displayName in higher-order components
+
+This guideline will help us keep our higher-order components consistent
+and easy to understand.
+
+Fixes #968.",['eea5f0f5f5cf8a35cb5b618b0d7e247fbd569e34'],False,['README.md']
+75c961a43f158263ef4bdb0f042cdcfa6a040b45,Change 'Brazilian' to 'Portuguese',['a533e2dd35ebc05e246698e65a6e23cbd342c240'],False,['README.md']
+cb36ed90c3647561bb5b062c835282255a1a789c,"[eslint config] [deps] [breaking] update `eslint` to v3, `eslint-config-airbnb-base` to v5, `eslint-find-rules`, `eslint-plugin-import`, `eslint-plugin-jsx-a11y` to v2, `eslint-plugin-react` to v6, `tape`.
+
+ - drop node < 4 support",['75c961a43f158263ef4bdb0f042cdcfa6a040b45'],False,"['package.json', 'react-a11y.js', 'react.js', 'test-react-order.js']"
+6857f7af97c10cf8dd05eff4b86a9fe5ddb2bba8,"[eslint config] [react] [breaking] enable react rules:
+
+ - `react/jsx-filename-extension`
+ - `react/jsx-no-comment-textnodes`
+ - `react/jsx-no-target-blank`
+ - `react/require-extension`
+ - `react/no-render-return-value`
+ - `react/no-find-dom-node`
+ - `react/no-deprecated`",['cb36ed90c3647561bb5b062c835282255a1a789c'],False,"['react.js', 'test-react-order.js']"
+a6da4bb5b2b7997affe21da6a1bf9487722b53c8,"[eslint config] [react] [breaking] enable aria rules:
+
+ - `jsx-a11y/aria-props`
+ - `jsx-a11y/aria-proptypes`
+ - `jsx-a11y/aria-unsupported-elements`
+ - `jsx-a11y/role-has-required-aria-props`
+ - `jsx-a11y/role-supports-aria-props`",['6857f7af97c10cf8dd05eff4b86a9fe5ddb2bba8'],False,['react-a11y.js']
+b4d8543f120ba761ae7f39caf850c1e4efdc2727,"[eslint config] [react] [breaking] enable jsx-a11y rules:
+
+ - `jsx-a11y/heading-has-content`
+ - `jsx-a11y/html-has-lang`
+ - `jsx-a11y/lang`
+ - `jsx-a11y/no-marquee`
+ - `jsx-a11y/scope`
+ - `jsx-a11y/href-no-hash`
+ - `jsx-a11y/label-has-for`",['a6da4bb5b2b7997affe21da6a1bf9487722b53c8'],False,['react-a11y.js']
+53b4173b0432cfca0b2b59a1849616f4d672c8eb,"[guide] [es5] Remove ES5 guide and mark it deprecated.
+
+Fixes #941.",['b4d8543f120ba761ae7f39caf850c1e4efdc2727'],False,"['README.md', 'README.md']"
+a1edac348ad16a95259126884cd40216fa6d65dd,[eslint config] [*] add `safe-publish-latest` to `prepublish`,['53b4173b0432cfca0b2b59a1849616f4d672c8eb'],False,"['package.json', 'package.json']"
+52a2da4182b9f1e61300a212e97f250a075c603b,"Add curlies around ref function body
+
+The example we have here uses an implicit return, which is forbidden
+when assigning. This triggers the no-return-assign rule.
+
+Fixes #980",['9ffadff1fdf85b327c6d4887b422ebeb904b641e'],False,['README.md']
+bfc842e3ad1be7f67fe9c7e09418f47fc33d6d38,"Remove rules about reserved words
+
+In 53b4173b we removed the ES5 guide which contains a lot of guidelines
+that are no longer very relevant for us. Similarly, some folks have
+raised the relevance of these rules about reserved words, given that we
+are now living in an age where ES3 support has mostly waned and
+transpilers such as Babel are widely adopted and pave over these issues.
+This seems like a good opportunity to simplify.
+
+Fixes #61",['f0b31960d339fa5e3ff4cbe6494cc670fa23e46f'],False,['README.md']
+6d2fc89bd145571a4997b9459670b44e84c754c4,"Add template literal ""bad"" example to single quotes guideline
+
+There has been some confusion around whether we should use single quotes
+or template literals. To help avoid this confusion, I am adding a ""bad""
+example to the single quotes guideline. This rule is already enforced by
+the quotes linter rule.
+
+Generally, we want code to clearly express developer intention. Using
+template literals communicates that you intend to use some of the
+features that template literals offer (e.g. interpolation).
+
+Fixes #992",['bfc842e3ad1be7f67fe9c7e09418f47fc33d6d38'],False,['README.md']
+dc7e7e77f2aba5753637e299bd8c02250990d865,"Reverse rule on string concatenation for long lines (#995)
+
+Broken and concatenated long strings are painful to work with and
+produce less readable and searchable code. I think we should reverse
+this rule.
+
+Unfortunately, the max-len rule currently does not allow for this, but
+there is currently a proposal to add an option to ESLint's max-len rule
+that would allow for strings to be ignored.
+
+  https://github.com/eslint/eslint/issues/5805
+
+There have also been discussions around performance of string
+concatenation (https://github.com/airbnb/javascript/issues/40), but I
+don't think that is very relevant here so I removed the links to them.",['6d2fc89bd145571a4997b9459670b44e84c754c4'],False,['README.md']
+db2e7bdf63fd7827af0922662f408410afc916a3,"[eslint config] [base] [fix] correct `import/extensions` list.
+
+From b45fdcd60f6e08f13718bc2348e8d6ea1314e91c / fixes #1013.",['424d74ec8db255b00ac68e17d33a7524f7de39b3'],False,['imports.js']
+baf0fa5343caecbbcd4684a3a6446b4447b51e91,fix issue with eslint-config-airbnb README.md file formatting,['39d5559b9a75c818c529d7f5265b8651b96b875a'],False,['README.md']
+2e694723bf35b5fae5961be62fd12c4536a0d945,"Changed ESLint rule configs to use 'off', 'warn', and 'error' instead of numbers for better readability",['f1fedfa7ca480743b9482f3befdacf7297f6773c'],False,"['index.js', 'legacy.js', 'best-practices.js', 'errors.js', 'es6.js', 'imports.js', 'node.js', 'strict.js', 'style.js', 'variables.js', 'react-a11y.js', 'react.js']"
+21846f6da0b9217dc3e4dde808ec240740038640,"[guide] fix “long lines” example to not include strings.
+
+Fixes #1027.",['ca1124cd8d2e33addbffb3b1743849e2bf774039'],False,['README.md']
+48f477db2ad9a5650e5305ed04489d5abc5b9d8c,"[eslint config] [base] [patch] remove redundant `DebuggerStatement` from `no-restricted-syntax`
+
+Fixes #1031.",['21846f6da0b9217dc3e4dde808ec240740038640'],False,['style.js']
+1541503fd47626e2d4b03ff01bca76940081edeb,[7.1] add link to fn names discussion. fixes #794,['48f477db2ad9a5650e5305ed04489d5abc5b9d8c'],False,['README.md']
+6944be009cb81de5bf7d8b525267235382452ca3,"Fix a typo in commas section
+
+Example code block following blockquote(line 2223) was broken as a line break was missing. So I just added single blank line.",['1541503fd47626e2d4b03ff01bca76940081edeb'],False,['README.md']
+a43c16e330d03082f5955de90873c6f9ca7d6308,Explain why not to prefix methods with underscores,['6944be009cb81de5bf7d8b525267235382452ca3'],False,['README.md']
+c74caead2a5569da4623ee4a9d613d8cde9940c2,"Re-order breakpoints in CSS-in-JS document
+
+This is more ""mobile first"".",['71a2b12262e628702d98785ae3655fc655ac1551'],False,['README.md']
+086cc0035df91b34c52744ab278b778a4d3208a7,"[eslint config] [base] [breaking] enable `no-template-curly-in-string`
+
+ - Also, clean up rule documentation.",['c829114a419508908d87f7bb053857ec78c7f44d'],False,"['best-practices.js', 'errors.js', 'es6.js', 'variables.js']"
+27dcb99c6d80718946d10017144b2aa68bed8b9e,[eslint config] [base] [breaking] enable `func-call-spacing`,['086cc0035df91b34c52744ab278b778a4d3208a7'],False,['style.js']
+aa4e9c466ad8edc44aa744a579389d10af2e6fd7,[eslint config] [base] [breaking] enable `no-tabs`,['27dcb99c6d80718946d10017144b2aa68bed8b9e'],False,['style.js']
+a6d59f977e9b6d8fdc0d8cd7333667a4c6e40efa,[eslint config] [base] [breaking] enable `no-bitwise`,['aa4e9c466ad8edc44aa744a579389d10af2e6fd7'],False,['style.js']
+2c5a775d7bec4e543b5ce3eb823e2134531a8841,[eslint config] [base] [breaking] enable `symbol-description`,['3bf7035cecbdcfbbddac9092b46c50f6591c5098'],False,['es6.js']
+06ff74801be00dfaee5077a59e883750796a3004,[eslint config] [base] [breaking] enable `class-methods-use-this`,['2c5a775d7bec4e543b5ce3eb823e2134531a8841'],False,['best-practices.js']
+d7d606ec0d904cd3e162aa798f0cd2e0f4d64e60,[eslint config] [base] [breaking] `valid-typeof`: enable `requireStringLiterals` option,['06ff74801be00dfaee5077a59e883750796a3004'],False,['errors.js']
+55d044c7c17d22fc0e4299a23481a72347c55cba,[eslint config] [base] [breaking] Add no-plusplus in style.js and added explanation in README.,['bc3b15d4d784327e8d8713a5111db94a6a42a5ba'],False,"['README.md', 'style.js']"
+9abe8789417d4fef6f4fcd490a186f0dd719aa6f,Fix header link to Classes & Constructors from ECMAScript 6+ Styles,['49045060e01db75d4035835184b9554dd79adac7'],False,['README.md']
+4ce30fc89135c76ad3fa7aeccd5b5ad9550fe9be,"[eslint config] [breaking] enable `jsx-a11y` rules:
+
+ - `jsx-a11y/anchor-has-content`
+ - `jsx-a11y/tabindex-no-positive`
+ - `jsx-a11y/no-static-element-interactions`",['e037760bad9c514ef183e2c9409e6d418753bbea'],False,['react-a11y.js']
+7f12b9f04373860ad9d2e5c17f85aef95d195d30,"[eslint config] [breaking] enable `react` rules:
+
+ - `react/no-danger-with-children`
+ - `react/no-unused-prop-types`
+ - `react/style-prop-object`
+ - `react/forbid-prop-types`
+ - `react/jsx-no-duplicate-props`
+
+Also sets `react/no-danger` to “warn”.",['4ce30fc89135c76ad3fa7aeccd5b5ad9550fe9be'],False,['react.js']
+ccd18f8b40e1718b5e75d6702ecbc2ab82d28455,"[guide] Update declarations section to prefer expressions.
+
+Fixes #1008.",['7f12b9f04373860ad9d2e5c17f85aef95d195d30'],False,"['README.md', 'style.js']"
+e6782493f378b6f3065354e82551deb42d570697,"Update ECMAScript 6 heading to match TOC
+
+I plan to add some information to this section that applies to ES6 and
+everything following ES6. Since we already list this as ES6+ in the
+table of contents, I figured it would be a good idea to make this match.
+
+I preserved the anchor to avoid breaking links for folks.",['f769e35018021e2f2ee82fbb0c79290ba1c43d77'],False,['README.md']
+38f679e9f90b8d9699477f4dc4c2914691b5f247,"[eslint config] [base] [patch] loosen `max-len` by ignoring strings
+
+Per https://github.com/eslint/eslint/pull/7049 / https://github.com/eslint/eslint/issues/5805",['7412641af9964d3c8ac3e8adf3fb48af6b88be27'],False,['style.js']
+6a72781121b2fd6709649d6d14b6a47ef0ad6042,"[eslint config] [base] [minor] enable `arrow-parens` rule
+
+This will cause new failures for some, but only for those not following our style guide already - hence, it’s not semver-major.",['dbdd56ccb5ee4a98394fa3d76467b12b93c01de4'],False,"['es6.js', 'test-base.js']"
+7da28d43ad4b73264420663ebbfb83fdff2b9249,[Docs] update 8.3 to fix conflict with 6.2 (fixes #1058),['e59376f625a4278f53494074c1c905de296cd8aa'],False,['README.md']
+6cdda0737e25b92cd0805a4490b20b7df3f9e8e5,[guide] Fix typo from #1058,['2a28b9c82f04a05462cfef025b6c791538472232'],False,['README.md']
+e9141f46308f3622ef7dd204e8c54f336db1011b,"[eslint config] [base] [patch] fix category of `no-restricted-properties`
+
+Per https://github.com/eslint/eslint/issues/7112 / https://github.com/eslint/eslint/issues/7118",['6cdda0737e25b92cd0805a4490b20b7df3f9e8e5'],False,"['best-practices.js', 'node.js']"
+bd5505b7273cd2c80815c880b3c7709c02ec73c0,[commas] fix traling comma link,['e9141f46308f3622ef7dd204e8c54f336db1011b'],False,['README.md']
+11b9adff01597361f080588196a268e1d6f64d86,Fix japanese translation link,['a2a35a8dbadc229c402b9752412d22ce5c42f33b'],False,['README.md']
+a599bca47492035fa5b9fdd9d1ba23743877a44f,"Add rule to avoid misusing DOM component prop names
+
+People expect props like `style` and `className` to mean one specific
+thing. Varying this API for a subset of your app makes the code less
+readable and less maintainable, and may cause bugs.",['a86d546c618f596003a7c6dbe0ee3d6ca61fe120'],False,['README.md']
+53f67f8a47539315926541e4ea5db1301c19117d,"Merge pull request #1083 from airbnb/react-props
+
+Add rule to avoid misusing DOM component prop names","['a86d546c618f596003a7c6dbe0ee3d6ca61fe120', 'a599bca47492035fa5b9fdd9d1ba23743877a44f']",True,[]
+386a7b1d158f262f3c19f268d1bdb980098a9b0d,"[eslint config] [*] [deps] update `eslint-find-rules`, `safe-publish-latest`",['53f67f8a47539315926541e4ea5db1301c19117d'],False,"['package.json', 'package.json']"
+f6dab799b8fa1346f1cc3fdfdbe9c9fbeef7baf6,"[eslint config] [base] [breaking] enable rules:
+
+ - `no-restricted-properties`
+ - `prefer-numeric-literals`
+ - `lines-around-directive`
+ - `import/extensions`
+ - `import/no-absolute-path`
+ - `import/no-dynamic-require`",['173cba3cc6987daf0d018633313ae277c290dcde'],False,"['best-practices.js', 'es6.js', 'imports.js', 'style.js', 'test-base.js']"
+0faabe054d0026806e12386f81c508f3ea3386fe,[eslint config] [breaking] [deps] update `eslint-config-airbnb-base`,['0157e69a0df8ee8fa568d2c0ed53c087e4910c80'],False,"['package.json', 'test-base.js']"
+0dae56a8e164cb6371328759bd02c5ab3fe2d185,"[eslint config] [patch] disable deprecated and redundant `react/require-extension` rule
+
+Fixes #978.",['0faabe054d0026806e12386f81c508f3ea3386fe'],False,['react.js']
+976845e9305e33cc366b104569145a05354078bd,"[eslint config] [breaking] Enable react rules:
+
+ - `react/no-unescaped-entities`
+ - `react/no-children-prop`",['0dae56a8e164cb6371328759bd02c5ab3fe2d185'],False,['react.js']
+59db4aab157d98bf98c216c119e9ff848eea9505,[eslint config] [base] [patch] `new-cap`: add immutable.js exceptions,['a1c84eee150da374381193799b3a89aa8f0fa2e5'],False,['style.js']
+24223ee444409087f1105be0c80f759d0d75d06f,"[eslint config] [patch] `class-methods-use-this`: exempt React `getChildContext`
+
+Added `getChildContext` to the exceptions list for `class-methods-use-this`",['59db4aab157d98bf98c216c119e9ff848eea9505'],False,['react.js']
+6ad315c090208aca03dfcd761c3b84663a5ac1e2,Add section on multi-line imports. Fixes #1051,['e2de71efb79bed5acf6d7f33fbd3b857a0a4b42c'],False,['README.md']
+b72bd520b63622477ce40c9b5a52c3514920ab81,Fix rule description,['098894efee58242c066644919ac4f75ff2ac17db'],False,['README.md']
+1bc2f3f36553b405408821a3bb9c1f689eb32979,"Merge pull request #1110 from karanjthakkar/multiline-imports
+
+[guide] Add section on multiline imports.
+
+Fixes #1051","['e2de71efb79bed5acf6d7f33fbd3b857a0a4b42c', 'b72bd520b63622477ce40c9b5a52c3514920ab81']",True,[]
+148329289344c965f306f1f38931e317328cec3a,Fix naming typo,['b7492ffe60483edd5f30819ceaa0f3f4b6e84886'],False,['README.md']
+781f186f908d064d7fe66bbca0a80a7d3656278e,"[eslint config] [*] [deps] update `safe-publish-latest`, `eslint-plugin-jsx-a11y`, `eslint-plugin-react`",['148329289344c965f306f1f38931e317328cec3a'],False,"['package.json', 'package.json']"
+baa831b4a997ca6318ec311f8ef4576f9a9d7991,"[eslint config] [*] [docs] ensure latest version of config is installed
+
+Fixes #1121.",['8d0fda975c1b52dd6696d8f70219a00f9703871d'],False,"['README.md', 'README.md']"
+a75efdfdb0484f3e09112c2d5c381d0513f06040,"[guide] improve ++/-- example.
+
+Fixes #1130.",['baa831b4a997ca6318ec311f8ef4576f9a9d7991'],False,['README.md']
+a1ca49b34c4e83ac70a583c1f64143f520d771f6,"Add `ForOfStatement` to `no-restricted-syntax`
+
+Fixes #1122",['9c5afe58090ba014434fe3130e7c3e551b31359a'],False,['style.js']
+0bb3eb541203aee1b134bef06940557cf7a30007,"[eslint config] [deps] [breaking] update `eslint-config-airbnb-base`, `eslint-plugin-import`",['d7d50bcbd0780803f00290729123a51788eb1f14'],False,['package.json']
+a06831d52c412147bd1bd590095482df49bcbea9,"[eslint config] [patch] set `react/no-unused-prop-types` to “warn”, pending bugfixes.
+
+Closes #1099.",['0bb3eb541203aee1b134bef06940557cf7a30007'],False,['react.js']
+0e2b74a263594d258337a424bddb49f60ec0c368,Add links to mentioned github issues,['70428bdc37723167bb09792fcf013d63e2aecf37'],False,['README.md']
+a23a3efba9d1661e52cfa6894d620cee965ac090,"[eslint config] [base] [deps] [breaking] update `eslint`
+
+ - enable `no-useless-return`
+ - tighten up `indent`
+ - loosen `max-len` with `ignoreRegExpLiterals` option",['05d06346270fae870537a10960166f60ea8a3bf8'],False,"['package.json', 'best-practices.js', 'style.js']"
+f9a5dd4919c30d575944ded3d9e33b233041ffe4,"Update JSX quote style rationale.
+
+Based on https://github.com/airbnb/javascript/issues/629#issuecomment-166384924.",['017dfa81fa2ffbb191ddb28240aa6098837b8d1b'],False,['README.md']
+788208295469e19b806c06e01095dc8ba1b6cdc9,[eslint config] [base] [breaking] `comma-dangle`: require trailing commas for functions,['c51251d17b8e38f1e8975a5e4eb13d7986229410'],False,"['README.md', 'errors.js']"
+3ab19f07f468d3606ac3656f477104d19ff616fc,[guide] Fix inconsistency in function expression rules.,['153c02b36cb2a3c980962ae9fabadf952c3c06e3'],False,['README.md']
+436cf3ee6366a4cf3382dbdee6078a90e92508d6,"[eslint config] [base] [breaking] update `eslint`, `eslint-plugin-import`; enable `import/no-named-default`",['3ab19f07f468d3606ac3656f477104d19ff616fc'],False,"['package.json', 'imports.js']"
+1399b3cbfa785f760c15ec63112f711b2c68fd28,[eslint config] [base] [breaking] prefer `**` over `Math.pow`,['436cf3ee6366a4cf3382dbdee6078a90e92508d6'],False,['best-practices.js']
+2f9dddbe205145512978a9f07b08fe987505d4d7,"[eslint config] [base] [patch] loosen `no-extraneous-dependencies` for test files.
+
+Relates to #959, #1089.",['1399b3cbfa785f760c15ec63112f711b2c68fd28'],False,['imports.js']
+c4a9d28485f39005464571db45ecfe8f83dd732d,[Tests] on `node` `v7`,['2f9dddbe205145512978a9f07b08fe987505d4d7'],False,['.travis.yml']
+c3044f811e139cf68d16ea026a6603c4c5f90a79,"[eslint config] [breaking] [deps] update `eslint-config-airbnb-base`, `eslint`, `eslint-plugin-import`, `eslint-plugin-react`",['38bd170e2cd8d28c99b69b5566f50362d6548cd7'],False,"['.eslintrc', 'package.json', '.eslintrc']"
+3e656750e68acaa166fb53e4783b66b42473db9f,[eslint config] [breaking] re-enable `react/no-unused-prop-types`,['c3044f811e139cf68d16ea026a6603c4c5f90a79'],False,['react.js']
+97575b2087a3371d6223f86960f90eee7426f7c8,Fix broken rule reference link `import/first`,['24b8f35f18e6baab92d4da7aa2c10c4fc2374245'],False,['README.md']
+a2cb4a2cd6721672a9cd03a7d0c4d529e298e335,"[eslint config] [base] [fix] legacy config should not require `**`
+
+Per https://github.com/airbnb/javascript/commit/1399b3cbfa785f760c15ec63112f711b2c68fd28#commitcomment-19718532",['97575b2087a3371d6223f86960f90eee7426f7c8'],False,['legacy.js']
+ec08ca84ba756543df99bee9c268866512634622,"[eslint config] [base] `import/no-extraneous-dependencies`: added ignore patterns for config files
+
+Fixes #1168",['ae1c0f89cbc02610cf647896d6957bca7e7b3cc5'],False,['imports.js']
+72eb3e443e49da634a83b56660fbe56698775cbb,[eslint config] [breaking] [deps] update `eslint-plugin-jsx-a11y` to v3,['b73649925a43b05fc35a74de16f09df51d3370fc'],False,"['package.json', 'react-a11y.js']"
+25d03b8b67c5a77ab7a886939187460f4175a525,"[eslint config] [*] [breaking] [deps] update `eslint`, `eslint-plugin-import`, `eslint-plugin-react`",['72eb3e443e49da634a83b56660fbe56698775cbb'],False,"['package.json', 'best-practices.js', 'package.json', 'react.js']"
+97da1f0f9d6fc5f592349317b296c74766d1d4ab,"[eslint config] [base] [patch] add `import/no-extraneous-dependencies` ignore patterns for test files
+
+Fixes #1174",['25d03b8b67c5a77ab7a886939187460f4175a525'],False,['imports.js']
+54aa8f1b3580d397b4ba77faa806e75e77705cb1,"[guide] Fix no-interpolation template string example
+
+The example showed a template string being used with no interpolation as ""good"". While it met the rule being described, it violated another rule for no reason.",['1ab6aaede9b146235d22b643d5f5076f7daa9b2e'],False,['README.md']
+664877a60149dbeb5065f5487d7ffcefc0158850,"Avoid i++ in array spreads example
+
+This style guide recommends using `i += 1` over `i++`. Even though this
+appears in a ""bad"" example, the example will be clearest if it is ""bad""
+in fewer ways.",['54aa8f1b3580d397b4ba77faa806e75e77705cb1'],False,['README.md']
+4d68ddc4bb774584b50ca893887ef9219a41128a,"Change ""modified"" to ""increasedByOne"" to minimize ambiguity",['1df98256d0ea57049f118d4e8f83a493211bc9dd'],False,['README.md']
+e037d29b93e5b61434deb9ba485f76c6406b7cb3,[eslint config] [base] [deps] [breaking] update `eslint`; enable `no-await-in-loop`,['898a70e7fe90dd6239a09a445b5cf750d041c3fb'],False,"['package.json', 'errors.js']"
+e1a307ae0a1eab781d310ead825b7e8f6c85d022,"[eslint config] [breaking] enable `react/no-array-index-key`, `react/require-default-props`",['6c4456d354ad4c49923806c52f5f8412e6ca2952'],False,['react.js']
+6eacbc2aad2d3c8d424b93861c5b6ea7ab44b3b5,[guide] Fix chaining example to be consistent with string interpolation,['019a6edaaaa6d0c4c69b9ef10870962c9279a9e0'],False,['README.md']
+b7cc2dc89f1e3b3aa10288ca6c2178a564facb0c,[docs] Fix package name in eslint-config-airbnb-base,['c9edc92a800490b42d4aba07dfc5f52761876581'],False,['README.md']
+6593964080c68e3b6d1975fc8c1b77c575933c3b,Fixed Functions (7.1) JSCS rule,['c6b7c9ef94571bf458d4f7aae98806cfbdb55fc0'],False,['README.md']
+097047202edd77b40d473aef1c648aef034f1863,[guide] fix Array name in examples,['266860b597a7b341d337f7f44195fac63b677ba2'],False,['README.md']
+712e010f2921237113bf6af6f9131302092d785f,"Update common function body comment
+
+- This commit provides a canonical way of describing
+  that the function body contains code of some sort.
+- The convention chosen was '// ...'.
+- This change is persisted throughout the readme file
+  where appropriate",['73e27ef03624fdaeb44033d17015858379967302'],False,['README.md']
+b06c5c6621942f512ceac6150be93d79c7dfd3ba,"Avoid octal number interpretation
+
+Some JavaScript versions interpret numbers as octal if they are written with a leading zero.
+Babel interpreter throws with an `Invalid number` message.",['712e010f2921237113bf6af6f9131302092d785f'],False,['README.md']
+41fa95eef91b59048a8d0e9f055d41f98e20b27e,[guide] fix indentation for consistency,['d8c3048f247f3d7cb0d3bf27d901bd5819ef9ce3'],False,['README.md']
+cb32f443c9ea94c6b25f9c183776eebf8445c87e,"[guide] fix arrow IIFE call
+
+Currently, it throws.",['6e4859d7c694afcc45366a26f1818d416db5764b'],False,['README.md']
+897b8fcc1cdf5356dbcf7f0a5aa111abdad118e6,"Change function order in functions (7.1) example
+
+Part 7.1 says first why function declarations are not good and
+after that it recommends to give a name to function expression.
+The same order could be used in example too.",['d0fb7635bc421cebc4a317bcd12bc853dd8875ef'],False,['README.md']
+2c390ecea94772a61ce616b9ece45695f0216d68,"[eslint config] [breaking] update eslint-plugin-jsx-a11y to v4, enable new rules",['6435f8ff23f5606e4c454b985abace51c586d9fe'],False,"['package.json', 'react-a11y.js']"
+1841d2fb99287f01c2ed98f1ca6c6350b509ad11,"Add guidance around not using mixins
+
+Mixins will hopefully be removed from React eventually. In the meantime,
+we can avoid the damage they cause by not using them. Most of this was
+borrowed from @gaearon's blog post ""Mixins Considered Harmful"".
+
+https://facebook.github.io/react/blog/2016/07/13/mixins-considered-harmful.html",['8cab89e792e2fc457ab177cdf2d97e767e03ecb6'],False,['README.md']
+bc21501cc7f5549c3d33fb94682eae9d2ce01c47,"[eslint config] [base] [minor] add `**/*.spec.js` as a test files pattern
+
+(see #1131)",['840d021d07e5dcc036e458e78f9a1f7201e20ba9'],False,['imports.js']
+13dc420a9eb5447330bcee75f615f280bc20bf3e,Fix Gitter badge in README.md,['5797f545d8c0840feadc6d1464120d8eb5f47c38'],False,['README.md']
+74071a809c22fa1104fe5d86bcd1eda949e1d0d9,"[eslint config] [base] [patch] add error messages to `no-restricted-syntax`
+
+Fixes #1353.",['aa9bbf9f49f9eb2dfca152b25200e0893a9dbedb'],False,['style.js']
+2c0da30904d842e80d2b7d0404a65867ba19b6df,"Fix the example of ""propTypes""
+
+This example makes me confused. I guess it missed the use of ""children"" of good code.
+Is the example to explain that you should specify default values for non-required props?
+
+Thanks",['54be49ab7d919923a827e6fd1adbb60bc4e1dd57'],False,['README.md']
+07d37db67aa84bdd0b0f7fe0bf7050499ecbe5bd,"Merge pull request #1370 from hanzhijue/patch-1
+
+Fix the example of ""propTypes""","['54be49ab7d919923a827e6fd1adbb60bc4e1dd57', '2c0da30904d842e80d2b7d0404a65867ba19b6df']",True,[]
+b87cb5cdad74199d3fcb83d135e466c29a56ff4e,"[guide] [Fix] react/prefer-stateless-function ""ignorePureComponents"" option typo",['275d4bba983b76b1e9293751b7700380bc7e8696'],False,['react.js']
+ba35e31c76d3c1ab4aeaa7f7967fc4cb98a82787,[eslint config] [breaking] set default React version to 0.15,['c9c5f7efbf91a7d00c0696f5d4318d6c58f81c5c'],False,['react.js']
+5dec8272e03ce792f3c1a5dc8cf94042609e0615,[eslint config] [base] [breaking] move `comma-dangle` to Stylistic Issues,['22672c1cdcae9b717ca2710b42f6572f45dea8b5'],False,"['errors.js', 'style.js']"
+f5cd2869d35268cc158409195b561b28feca5d94,"[guide] [eslint config] [base] [breaking] Rules prohibiting global isNaN, isFinite.
+
+ - Update README with new Standard Library section.",['5dec8272e03ce792f3c1a5dc8cf94042609e0615'],False,"['README.md', 'best-practices.js', 'variables.js']"
+5aa203eaa88fb7febfb1ccf8736e896ca0959049,"[eslint config] [base] [deps] [breaking] require `eslint` v4
+
+ - enable `function-paren-newline`, `for-direction`, `getter-return`, `no-compare-neg-zero`, `semi-style`, `object-curly-newline`, `no-buffer-constructor`, `no-restricted-globals`, `switch-colon-spacing`, `template-tag-spacing`, `prefer-promise-reject-errors`, `prefer-restructuring`
+ - improve `indent`, `no-multi-spaces`, `no-trailing-spaces`, `no-underscore-dangle`",['f5cd2869d35268cc158409195b561b28feca5d94'],False,"['.travis.yml', 'package.json', 'best-practices.js', 'errors.js', 'es6.js', 'node.js', 'style.js']"
+121a95d71524032bfa858271b318aa6e19553dfc,[eslint config] [deps] [breaking] update `eslint-plugin-jsx-a11y`,['7cef8dad848c5648c6b843e26ea683b9b1f4d43d'],False,['package.json']
+01e39775972e3457defd64af2e94843a848d4fe2,"[eslint config] [breaking] enable rules:
+
+ - `no-autofocus`: enable `ignoreNonDOM`
+ - add options to `no-static-element-interactions`
+
+ - remove `onclick-has-role`
+
+ - add `alt-text` (replaces `img-has-alt`)
+ - add `interactive-supports-focus` (replaces `onclick-has-focus`)
+
+ - add `no-noninteractive-element-interactions`
+ - add `media-has-caption`
+ - add `no-interactive-element-to-noninteractive-role`
+ - add `no-noninteractive-element-to-interactive-role`
+ - add `no-noninteractive-tabindex`",['121a95d71524032bfa858271b318aa6e19553dfc'],False,['react-a11y.js']
+d469bb25c1e8b762de65bbb5e21ed98d9bf934f7,"[eslint config] [deps] [breaking] update `eslint-plugin-react`
+
+ - enable `react/no-will-update-set-state`
+ - delete removed rules
+ - `jsx-wrap-multilines`: enable `arrow` option
+ - `jsx-first-prop-new-line`: change to `multiline-multiprop`
+ - disable `jsx-space-before-closing` in favor of `jsx-tag-spacing`",['01e39775972e3457defd64af2e94843a848d4fe2'],False,"['package.json', 'react.js']"
+fe65e4b6492342dd40d3b163090ce82a51863033,"[eslint config] [patch] Fix reported React version
+
+Fixes #1414.",['58e6cd323ad1d010e81fb5d064a40c35e5370556'],False,['react.js']
+324bf9c834dead53d6c06ffdf50f764e7d35beb3,Fix option typo,['8cabe49b943b6407ac4a16f776c6945b6e0b34e4'],False,['CHANGELOG.md']
+0dd3dbd7b62061e1ca3d1c5467ed3fbca1e5daf6,[eslint config] [base] [breaking] Blacklist confusing globals,['324bf9c834dead53d6c06ffdf50f764e7d35beb3'],False,"['package.json', 'variables.js']"
+f86aacae447725d6d0edd787d620fad54ac1b187,"[eslint config] [fix] jsx should be enabled via parserOptions, not via a root ecmaFeatures.
+
+From https://github.com/airbnb/javascript/issues/1410#issuecomment-303368921",['0dd3dbd7b62061e1ca3d1c5467ed3fbca1e5daf6'],False,"['react-a11y.js', 'react.js']"
+0f8f30dcd0b8292a9e49148fa6f77046aadbeee2,"[6.5] Add no-eval eslint rule to docs
+
+Add reference to the eslint `no-eval` rule to the README.
+
+This rule is already set to `error` in best-practices.js in eslint-airbnb-config-base.",['44ca3c2b3a1650ae5b8961ff3d5f3d166fde52db'],False,['README.md']
+f3c9639abe26bd03339f13dc1ab21868399c5beb,[eslint config] [base] [patch] Allow jsx extensions for test files,['0f8f30dcd0b8292a9e49148fa6f77046aadbeee2'],False,['imports.js']
+98f2224ec2f4378028cbb61a62dbbaa44a2fcc56,"Add linting for Markdown prose
+
+Codify existing practices for writing Markdown in style guides and
+enforce them via Markdownlint. A new npm script ""lint"" in the top level
+package.json runs before tests or as the first step of the ""travis""
+script.
+
+Only modify documents in cases where they had bugs or isolated cases of
+inconsistency:
+
+README.md: 10: MD007 Unordered list indentation
+Inconsistent with all other top level lists
+
+README.md: 10: MD032 Lists should be surrounded by blank lines
+Some Markdown parsers don't handle this correctly
+
+README.md: 3156-3161: MD005 Inconsistent indentation for list items at
+                      the same level
+Bug, looks like it's intended to be another list level but GitHub
+renders it at the same level as the ""No but seriously""
+
+README.md & css-in-javascript/README.md: throughout: MD012 Multiple
+          consecutive blank lines
+
+README.md: throughout: MD004 Unordered list style
+Some nested lists used plusses, now everything consistently uses
+dashes.",['ac6de2fdb8c185597998aa4bf1cc35358d4a3d28'],False,"['README.md', 'README.md', '.markdownlint.json', 'package.json']"
+1a38734d63a3624887de6c5ffa5602b4da9d3db4,[Tests] npm v4.6+ breaks in node < v1; npm 5+ breaks in node < v4,['5ba31498feaec1c977008b62c2768f4ea5d498df'],False,['.travis.yml']
+721af5498fade08b3a5fe9e613aa6e33baa51e37,[Tests] on `node` `v8`,['1a38734d63a3624887de6c5ffa5602b4da9d3db4'],False,['.travis.yml']
+00c9e52aec17b9a44fbf03494a931346e8f090de,"[eslint config] [base] [minor] Balanced spacing for inline block comments
+
+Fixes #1425.",['721af5498fade08b3a5fe9e613aa6e33baa51e37'],False,['style.js']
+fd8cbec8e0b312dcf31a579fe3b1e7098ae0bfe7,[guide] change straight quotes to curly quotes,['1bbac742862720fd6905712ccf87cae45f327307'],False,['README.md']
+cd4ec6245ef0b3d3fcb9bbef89bf34ea0ec0c7fb,[guide] change more straight quotes to curly quotes,['4499ee0094239c1e02506ee30c2a3945aa032591'],False,['README.md']
+7bb8c9f905b4bc34e57ef39002cbfb32818cd003,"[guide] Fix iterator code example error
+
+The first ""good"" example was missing a closing bracket (line 1377).",['cd4ec6245ef0b3d3fcb9bbef89bf34ea0ec0c7fb'],False,['README.md']
+0c9e22e039d7a1ad8a522768991db2ad431d3d69,"[guide] replacing undefined with ReferenceError
+
+Fixes #1457",['7bb8c9f905b4bc34e57ef39002cbfb32818cd003'],False,['README.md']
+cd720b4c7bededa4edda232e9e9e6b5e3b5a438d,"[eslint config] [*] [docs] add yarn instructions
+
+Fixes #1462.",['4380284b05337f6e48798ff4fd76ab606d5adf94'],False,"['README.md', 'README.md']"
+2666db559dc0ef41887a1138cff4f59b3879892a,Fix typo in a11y for yarn,['cd720b4c7bededa4edda232e9e9e6b5e3b5a438d'],False,['README.md']
+d806859320b198eeb850966ed5d091828bc55b64,[Tests] run prepublish tests as allowed failures,['c68fa632624f088b4bbe81192a50554b0c6af970'],False,['.travis.yml']
+fc7fae620f625701a5614fb9cf9ec1e9c49bcc70,[Tests] add pretravis/posttravis scripts,['7768e01625fd7136872dca2a8bf7ef407fd19df5'],False,"['.travis.yml', 'package.json', 'package.json']"
+6331c2c3e2751b02af2636bce88bbb4a5489e9a5,[guide] Typo fix on example,['22c97fa6787ce7df7124782bea1b3fe29fe76e01'],False,['README.md']
+b4995b6416faa714299a39976a0b7107ad7b2afe,"[eslint config] [base] revert breaking part of #1420
+
+I’ll re-enable it in the next major.",['cdc1c4fb76a67827c0aa52fd67cdda122828f583'],False,['variables.js']
+399420f46f1c1161106655ade5f7c9b95723574b,[Tests] add an explicit eslint version to travis.yml,['b4995b6416faa714299a39976a0b7107ad7b2afe'],False,"['.travis.yml', 'package.json']"
+9d91990221d47b2782f586370451033460e0a32b,[Tests] stop testing on eslint v3,['b687a9ceb8030dcdc467adb51c33e37a9a1c6101'],False,['.travis.yml']
+63d1ae175e01391ded18c0a4d03c0eca4c49edbe,[Tests] fix linting error caused by updated base config,['9d91990221d47b2782f586370451033460e0a32b'],False,"['style.js', 'test-base.js', 'react.js']"
+7b30681227ffec7e5ff958a43f0ba31633ad045d,"[eslint config] [breaking] [deps] require `eslint` `v4`, update `eslint-config-airbnb-base`",['1f5ca4c976b906a94d4faa2e01dfff2c9a106bfb'],False,['package.json']
+074b2f81b810519421a875bff94e15be118c2cd2,"[eslint config] [breaking] [deps] Upgrade `eslint-plugin-jsx-a11y` to `v6`
+
+ - enable more a11y rules",['7b30681227ffec7e5ff958a43f0ba31633ad045d'],False,"['package.json', 'react-a11y.js']"
+0d938aecf20e2a6ad586e08155e177a25d12bc5e,[eslint config] [base] [fix] `legacy`: remove top-level `ecmaFeatures`,['2c0126543ff93e060e00faf9c3e98e40f58b0d1e'],False,['legacy.js']
+a371d73414bfe534ce24d852877bed8135ebcc0a,"Update README, fixed badly-styled eslint links 
+
+There were links to eslint rules in a style that didn't match the style of the rest of the document. Specifically, most links in the document use the following style: ""eslint: ['no-unneeded-ternary']"", but there were badly styled links that looks like this: ""eslint rule: ['no-unneeded-ternary']."" Additionally, the badly styled links were on their own line, whereas all the other links are not placed on their own line.",['3cc6269c86ab5eb5cf4f307eb6573a7734b7fbfd'],False,['README.md']
+9393e6ab10f38dbf4b020fed81c20152ac9b8558,"Update README, finished fixing eslint styling
+
+Update README, finished fixing eslint styling (look at previous commit description for info).",['a371d73414bfe534ce24d852877bed8135ebcc0a'],False,['README.md']
+abeb313333261889d3bef1618f6bae57a5851592,"Merge pull request #1505 from asherdale/master
+
+Update README, fixed badly-styled eslint links","['3cc6269c86ab5eb5cf4f307eb6573a7734b7fbfd', '9393e6ab10f38dbf4b020fed81c20152ac9b8558']",True,[]
+16faade698a185d3a84f4c2c8ef70ec4cf712936,"[eslint config] [*] [docs] Specify yarn-specific install instructions
+
+Attempts to clarify and address issue https://github.com/airbnb/javascript/issues/1508#issuecomment-319113807
+
+Recommends yarn users to list peer dependencies and then install each peer dependency with specified version.
+
+Prior yarn instructions led users to install the latest version of each peer dependency which, in some cases, led to errors if the latest version of a peer dependency did not have rules that this package uses.",['e4f35ac959ce531e128d97cea051ddd76dd5aa6c'],False,"['README.md', 'README.md']"
+344c25d83a91c7a9c456e6fc9d5b40d1b924f8d3,Fix a wrong link,['1cddb4f2c0069000c235817069cc4449ce2ed681'],False,['README.md']
+855426b3db99b07469962b4d1515757d8284dda0,"Update section on naming conventions for acronyms
+
+- Fix array name starting with a capital
+- Add alternative good example",['344c25d83a91c7a9c456e6fc9d5b40d1b924f8d3'],False,['README.md']
+d493a04d7f79b2439c68f854f934513d77ebdcff,"Change Simplified Chinese translation link
+
+Currently the Simplified Chinese translation is for ES5, it's out of date, use another one instead of it.",['22672c1cdcae9b717ca2710b42f6572f45dea8b5'],False,['README.md']
+9dee84796bfcf3ab88cd4603869c7c7c6ada13b1,"[Docs] add note about requiring `babel-preset-airbnb` and `airbnb-browser-shims`.
+
+Fixes #1544.",['074b2f81b810519421a875bff94e15be118c2cd2'],False,['README.md']
+138aafd2a0afe9054df904bbe1dbe72b3784e4ea,"Update CHANGELOG.md
+
+Typo: prefer-restructuring => prefer-destructuring",['9dee84796bfcf3ab88cd4603869c7c7c6ada13b1'],False,['CHANGELOG.md']
+e86fb149325346f166ab35dfb7f4b198fbdd5ce8,"Merge pull request #1551 from vitalymak/patch-1
+
+[eslint config] [base] fix typo in changelog","['9dee84796bfcf3ab88cd4603869c7c7c6ada13b1', '138aafd2a0afe9054df904bbe1dbe72b3784e4ea']",True,[]
+5b338e1937725758e03ed21d589177e61ad5d1a9,[Tests] lint our markdown,['e86fb149325346f166ab35dfb7f4b198fbdd5ce8'],False,"['.travis.yml', 'README.md']"
+e16b03b841b20e510a203cf7d213d4d75d9d21df,"[guide] require array spread operator or `Array.from`
+
+Fixes #1084.",['0aab14c3648511e555da3137e2971201a2f6e338'],False,['README.md']
+8e29a161f91cb0e190ebe3f955073f3c16894d9f,"[eslint config] [base] [fix] ensure all JSX elements are ignored by `indent`
+
+Fixes #1569.",['2380c0ddb849c61d61db92331cc0255f2c68c02b'],False,['style.js']
+e5b5aeeb6bfc2402969360e9537c40ba42b1d137,"[eslint config] [breaking] enable/add react rules:
+
+ - `react/jsx-curly-brace-presence`
+ - `react/no-typos`
+ - `react/no-unused-state`
+ - `react/no-redundant-should-component-update`
+ - `react/default-props-match-prop-types`",['2c228825a808b6c782e4b79c80db3c28cfceae4d'],False,['react.js']
+6e1f11185d95432ba90a647efc027bd32983f17d,"[eslint config] [base] Enables eslint rule for operator-linebreak
+
+Requiring operators at the beginning of the line makes code more readable. When operators are on the left hand side they mirror the syntax of method chaining and it is easy to see the build of logic in a statement.",['cf9e17efee72121b17507b030c04f9b11c521a9b'],False,['style.js']
+2ab0e618582f5b64e406fe81fb5c9540b3be9824,Updates Control Statements section to reflect eslint config change,['6e1f11185d95432ba90a647efc027bd32983f17d'],False,['README.md']
+6fbc47256ef0671be7f11cb3016489f6a9afa16a,Fixes test syles,['2ab0e618582f5b64e406fe81fb5c9540b3be9824'],False,"['test-base.js', 'test-base.js']"
+01e72b9963bd8ff6567001d6be1612701a79383d,[eslint config] [base] [breaking] `no-else-return`: disallow else-if,['f2a65c689831185975c97abc9558d96e4e8bbc46'],False,['best-practices.js']
+cd4ec29ed33fde4f81184f81eeddbda0b561dcd2,"[eslint config] [base] Enables eslint rule for operator-linebreak
+
+Requiring operators at the beginning of the line makes code more readable. When operators are on the left hand side they mirror the syntax of method chaining and it is easy to see the build of logic in a statement. This also updates the readme and fixes a style violation as a result of adding this rule in eslint-config-airbnb/test/test-base.js and eslint-config-airbnb-base/test/test-base.js.",['f2a65c689831185975c97abc9558d96e4e8bbc46'],False,['README.md']
+8507df4f7802005cd84b20fde345cb3038b5cbca,"Merge pull request #1600 from airbnb/shar--enforce-operator-linebreak-before
+
+Enforce operator at the beginning of line","['01e72b9963bd8ff6567001d6be1612701a79383d', 'cd4ec29ed33fde4f81184f81eeddbda0b561dcd2']",True,[]
+2b3c86d8124729eb2207e596512222dd3f5f82fe,Fixes indentation,['8507df4f7802005cd84b20fde345cb3038b5cbca'],False,['README.md']
+b66d6e42f3224cc4f8a138ecce34bf704e7a320c,[eslint config] [base] [breaking] `lines-between-class-members`: set to “always”,['2b3c86d8124729eb2207e596512222dd3f5f82fe'],False,['style.js']
+6f2395a3f146863f4cba86cbf2433618828fa9f3,[eslint config] [base] [breaking] `import/named`: enable,['b66d6e42f3224cc4f8a138ecce34bf704e7a320c'],False,['imports.js']
+8cfc97eee9e18efcca308115b21c075cff687b7c,[Tests] fix linting tests,['6f2395a3f146863f4cba86cbf2433618828fa9f3'],False,"['package.json', 'test-react-order.js']"
+97a68836215914c0ece2f221d1896a2e01f56a22,"Fix markdown style breaking
+
+It came from the special characters ""M-BM-"":
+
+```
+diff README.md README.md.new | cat -A
+651c651$
+<     const foo = function uniqueMoreDescriptiveLexicalFoo() {$
+---$
+>  M-BM-  M-BM- const short = function longUniqueMoreDescriptiveLexicalFoo() {$
+```",['232b719fc5192075c03dd1fc07445982df718486'],False,['README.md']
+8161f32f1ff7afb1d382a304db2690cee4d6a3e7,"[eslint config] [base] [breaking] `no-mixed-operators`: only warn on `**` and `%` mixed with arithmetic operators; removes violation against mixing common math operators.
+
+Fixes #1071.",['97a68836215914c0ece2f221d1896a2e01f56a22'],False,"['README.md', 'style.js']"
+dbd69346bde8b7edebfed3c2b092148bf3f449e1,"[guide] Fix a numeration typo in README.md
+
+ - also remove legacy numbered link",['8161f32f1ff7afb1d382a304db2690cee4d6a3e7'],False,['README.md']
+2676cbfb2f9cae832f02f0ea43a9df3f024a24f9,[eslint config] [base] [breaking] Enables `nonblock-statement-body-position` rule and adds link to guide,['8a477f9893cf1efa49a881249f0ec31764b8af69'],False,"['README.md', 'style.js']"
+999fe3b83ac9cb41bb7f1514baeb68c007a369a3,Change className to variant in examples,['dbdf8ea0ef966903968230d7ee11de6fa084ea9c'],False,['README.md']
+9edcdde8fed4ca56d63d260ee36d4e1e8f9e68e8,"Merge pull request #1620 from lasota-piotr/classname-props
+
+[guide] [react] Added anti-pattern example for Props Naming rule, changed className props in examples","['dbdf8ea0ef966903968230d7ee11de6fa084ea9c', '9d3e7e0a2c47dedf6032d77418a531e8abfd7762']",True,[]
+c40d0d1f8444ba838e7550622334ad4418abf991,"[guide] Fix a link, add an anchor",['9edcdde8fed4ca56d63d260ee36d4e1e8f9e68e8'],False,['README.md']
+2d4343acd19bd7700a69b514d01889c7041d65fb,"[guide] remove/update outdated links.
+
+Fixes #1626.",['c40d0d1f8444ba838e7550622334ad4418abf991'],False,['README.md']
+7ff6303513b46e8b7dd0bc03327b138a6db7b3b4,"[guide] Use HTTPS for links to ESLint documentation
+
+The result of a `s_http://eslint\.org_https://eslint\.org_g`.
+Avoids the HTTP 302s of the non-HTTPs URLs.",['2d4343acd19bd7700a69b514d01889c7041d65fb'],False,"['README.md', 'README.md', 'best-practices.js', 'errors.js', 'es6.js', 'node.js', 'style.js', 'variables.js', 'CHANGELOG.md', 'README.md', 'react.js', 'test-react-order.js', 'README.md']"
+1948c302fd21d7bedd7d6e1a1e83c2e51efcb18e,[Tests] on `node` `v9`; use `nvm install-latest-npm` so new npm doesn’t break old node; pin included builds to LTS.,['7ff6303513b46e8b7dd0bc03327b138a6db7b3b4'],False,['.travis.yml']
+44dbd0bdc41d08eb5de8ad698099ae44240f4b0d,"[eslint config] [patch] disable `no-did-mount-set-state`, since it’s necessary for server-rendering.
+
+Fixes #684.",['5682155e9a2bd5391fe8579a25d6abd482d78123'],False,['react.js']
+8cf2c70a4164ba2dad9a79e7ac9021d32a406487,"[guide] Add explanation for semicolon enforcement rule
+
+Also update code samples to highlight ways in which ES6
+currently mishandles code when relying on Automatic Semicolon
+Insertion
+
+Revise hyperlink and example
+
+- Use more up-to-date TC39 reference page on github.io
+- wrap returnless function with side-effects in curly braces
+
+also, clean up punctuation on a long comment line
+
+Always use single-quoted strings
+
+Except for when the string needs to be double-quoted because the string contains apostrophes
+
+Update second example to incorporate IIFE
+
+An IIFE is a more realistic example of code that developers may encounter which would raise an exception when relying completely upon ASI",['44dbd0bdc41d08eb5de8ad698099ae44240f4b0d'],False,['README.md']
+b7090234944eaff912b54faa3f86ca4eee4d017a,[eslint config] [base] [breaking] enable `implicit-arrow-linebreak`,['2087a42b51a8977308a05fe7096c27849b5cacdb'],False,['style.js']
+255b0f369ad6579ac74f808c000f2daa4e03d74f,Fix third example in  Enclosed operators section,['4817a6b75cd44fe8b28a16b06d33a5c65603a74c'],False,['README.md']
+8a12ffed193ab985d438bed2a20aedb8b5faea1e,"[guide] Fix spelling error in link
+
+(preserve old link for back-compat)",['255b0f369ad6579ac74f808c000f2daa4e03d74f'],False,['README.md']
+1b6bcd0e0fd4ed95eec2ff0a23b24b961af77e30,"[guide] more precisely refer to an ""object literal"" instead of just a ""hash""
+
+Fixes #1680.",['fc34709d195b0ec9787c7b9905d3d5d72fd305b5'],False,['README.md']
+0991476c9f803f47abaf68b47434c5d1e58c49d7,"[guide] Clarify that vars are hoisted to function scope, not block scope
+
+Fixes #1675.",['1b6bcd0e0fd4ed95eec2ff0a23b24b961af77e30'],False,['README.md']
+f9fcb37af15391f6f75ae3e8d5e09f5f2ae064b8,"[guide] Add link to ""has"" package
+
+Fixes #1670.",['0991476c9f803f47abaf68b47434c5d1e58c49d7'],False,['README.md']
+ea8fd76c5e17abd8597baf981ad32a3ec21c48dd,"[eslint config] [base] [breaking] Add .mjs extension support
+
+Merge pull request #1635 from olistic/add-mjs-extension-support","['cb9482c04efac0a5278373b4506a29849753f67f', 'eb50272401bf0a02ff385f65fc3ec845cd159d0a']",True,[]
+fe3a2de6b511f6373bab5f00d81e699ff6e81a56,[fixes: #1678] Improves wording of no-mixed-operators recommendation.,['ea8fd76c5e17abd8597baf981ad32a3ec21c48dd'],False,['README.md']
+35f3e76eddfe7d03c5525d47b9255517db4332f3,"Merge pull request #1691 from airbnb/update-mixed-operators-text
+
+[guide] Improves wording of no-mixed-operators recommendation.
+
+Fixes #1678.","['ea8fd76c5e17abd8597baf981ad32a3ec21c48dd', 'fe3a2de6b511f6373bab5f00d81e699ff6e81a56']",True,[]
+69a3554100935b79b9c444102504f98103834079,"[eslint config] [base] [patch] properly ignore indentation on jsx
+
+Fixes #1658.",['7b18d7c2155f52937b1d48a3c6b905943fc1e5b7'],False,['style.js']
+be647a77fb8ff605d153555a16dc9062ed965136,"Merge pull request #1538 from lanceli/patch-1
+
+Change Simplified Chinese translation link","['69a3554100935b79b9c444102504f98103834079', 'd493a04d7f79b2439c68f854f934513d77ebdcff']",True,[]
+262b07b106bdb83f476c77923340aa9c679da9a2,"fix example to meet standard listingId v listingID
+
+fixed code example to meet the standard. `listingId` changed to `listingID` 
+See - Naming Conventions: Acronyms and initialisms should always be all capitalized, or all lowercased.",['a08afd77d5d4fe6fdaae1ac9045de957ac433367'],False,['README.md']
+c4dcfd93a732c950004c500b8696a50412d8ad82,[guide] fix indentation in section 4.7,['7dab8371c9302cb4c228e652d376a6c2d66db4a3'],False,['README.md']
+53b2d7d245ba4abefc0429bfda4a46f099b9ace5,[eslint config] [breaking] bump react pragma to v16; update `class-methods-use-this`'s `exceptMethods` to include `componentDidCatch`,['c4dcfd93a732c950004c500b8696a50412d8ad82'],False,['react.js']
+e9fff7adbf6dd4e3723c12849c407aafd429cf0f,[eslint config] [base] [breaking] Prevent line breaks before and after `=`,['53b2d7d245ba4abefc0429bfda4a46f099b9ace5'],False,"['README.md', 'style.js']"
+1eefaed4fbb8ff469a864de5dfb652bb04607253,[guide] [css] Fixed Italic subtitle in css-in-js README.md,['fc99aefc4c4ca7b66ef665b35a898a0c83ae2b5d'],False,['README.md']
+4c870cbd4090016fa36d15f8b2673324c83aabcc,[guide] Fix function signature spacing,['c8b1164105064b7786b24258f53f6237fb4bdd15'],False,['README.md']
+cfe10c17d3f1df7325f8d40a4fcb2486254892f1,fix linting error in guide,['4c870cbd4090016fa36d15f8b2673324c83aabcc'],False,['README.md']
+ff1c12178e268d4ee33321b4aab39571739af49d,[eslint config] [breaking] update `eslint-plugin-react` to `v7.6`; update rule configs,['901fd85b7cd9386f20a86530f56ec4661b4f18e7'],False,"['package.json', 'react.js']"
+1fbeabd0c4b5d6ece9b7b966aa594854c6da9930,"[eslint config] [*] [breaking] [deps] update `eslint`, `eslint-plugin-import`",['fd68fdbd2270021eaf0fcc6e4a4f66c261b5b0da'],False,"['package.json', 'imports.js', 'package.json']"
+c82500d7fa65e199d3df0ce52783a058fb6f4683,[eslint config] [base] [breaking] enable `no-useless-path-segments`,['1fbeabd0c4b5d6ece9b7b966aa594854c6da9930'],False,"['imports.js', 'test-base.js', 'test-react-order.js']"
+6373dab9901a29105712ec040006f2352a318dd6,"Adds config entry point with only whitespace rules enabled
+
+Adds a change to eslint-config-airbnb and eslint-config-airbnb-base to pull a list of rules from the project root and return a config with all rules turned off except the whitespace rules explicitly listed in the array. Also adds entry point data to readme.",['c82500d7fa65e199d3df0ce52783a058fb6f4683'],False,"['README.md', 'package.json', 'whitespace.js', 'README.md', 'package.json', 'whitespace.js']"
+40dbeace170d3cf309e857dd9a9caa092d6aac2c,[Tests] ensure all entry points parse,['8e6363c677905feaaa20bea47ec27fc65206c13f'],False,"['package.json', 'requires.js', 'package.json', 'requires.js']"
+396166b1d3266c3bd4c9a83a8f3142c7bcc58865,[eslint config] [*] [fix] ensure `whitespace` entry point is compatible with node 4,['40dbeace170d3cf309e857dd9a9caa092d6aac2c'],False,"['.eslintrc', 'package.json', 'whitespace.js', '.eslintrc', 'package.json', 'whitespace.js']"
+a100a3957ffb11c841dbd74a649cbb9b5a17a2aa,"[eslint config] [base] [breaking] Update `object-curly-newline` to match eslint 4.18.0
+
+In eslint v4.18.0 separate settings are introduced for imports and exports for the `object-curly-newline` rule.
+
+Without this change, there is different behavior when updating eslint to this version.",['55adae99c960be8d4433b8c98b410695f6cea733'],False,['style.js']
+8247e338a2d689f2e16010b0db225fbce7760f97,"[eslint config] [base] [patch] Set import/extensions to ignorePackages
+
+This allows to import non-JavaScript files through the main export of a dependency's package.json.
+
+The following would trigger an error before, but is fine with the new configuration:
+
+```js
+import 'roboto-fontface';
+```",['a100a3957ffb11c841dbd74a649cbb9b5a17a2aa'],False,['imports.js']
+49dab881da79eb3742e7f1e26c754194a9f26991,"Change import/no-self-import from ""off"" to ""error""
+
+We recently had an incident where this rule would have prevented
+infinite loops in Hypernova and in the browser.",['8247e338a2d689f2e16010b0db225fbce7760f97'],False,['imports.js']
+8ed1d855bbefccbb147fe17d902a18c8f9aa3977,[eslint config] [base] [patch] Include 'accumulator' exception for `no-param-reassign`,['49dab881da79eb3742e7f1e26c754194a9f26991'],False,['best-practices.js']
+c71e8c9231394ef9489cacf6cbf1ea9dd63b1b32,[eslint config] [base] [breaking] enable `import/no-cycle`: warn on cyclical dependencies,['31d95fded451b31695d9cc09abc117edcea4969d'],False,['imports.js']
+8720f5f90bbe4aaf87e03d81b3b4f607f27ff6c6,[eslint config] [base] [patch] avoid `__mocks__` `no-extraneous-dependencies` check,['bd97fca21b99b542d9ef9eebec78198d6bb5fde0'],False,['imports.js']
+06998522e1f4935f81f732c458d2cc72dde2cac9,"[guide] fix ""bad"" comment to be actually bad",['8720f5f90bbe4aaf87e03d81b3b4f607f27ff6c6'],False,['README.md']
+b56875bee21eb8d87213c787dc105c288066f43e,"[eslint config] [base] [patch] `function-paren-newline`: change to ""consistent""",['89bb98e13568839793dc725e78717ddce58de79b'],False,['style.js']
+fd0834764c8b991a807e6366181c1a3eddba240d,[eslint config] [base] fix tests,['b56875bee21eb8d87213c787dc105c288066f43e'],False,['test-base.js']
+8c83d03a20d166aba0acefa1358efe6043eacc3e,"[eslint config] [base] [patch] Allow devDependencies for foo_spec.js naming style
+
+Some projects name test files like `foo_spec.js` instead of `foo.spec.js`.",['22f01558a08eed9f32ad3b6e963ac71bebd37433'],False,['imports.js']
+71e54f2af8e17c6147f1e8f7baafdbcf86d1d2d9,"doc: fix some nits in README.md
+
+* Add missing anchors for section references.
+* Correct a rule description.",['edf942eeb6bee3ae538e1484861ea0721fad4856'],False,['README.md']
+c068d7cbf1bfb2f263bc928ca7fd895a6a6add7f,Fix link for Temporal Dead Zone,['2ba36de952fcb6a931471980f4fbbdc4df468baa'],False,['README.md']
+8a244801196924797878186d744249c78fa4ed37,Fix broken aria roles link in React style guide README,['dfc9da71d9ac8669d074cbe0f918b504c8a68be8'],False,['README.md']
+b3bbd1ccbc2495762ed3b2ec47e776135e532d76,[eslint config] [base] [breaking] order of import statements is ignored for unassigned imports,['2668495fee10b4b70f72ba623b4f319ad539700a'],False,['imports.js']
+fdb998b38adda8777022fe33b86b2f8092ac83a0,[eslint config] [base] fix tests,['951825c6d216ef2b3017472ae66e9b3360b089ae'],False,['whitespace.js']
+8be089eb1138c6e5dbdc27146248525c0633ba47,[eslint config] fix tests,['fdb998b38adda8777022fe33b86b2f8092ac83a0'],False,"['react.js', 'whitespace.js']"
+d14ed5daa7625eab6e03fb290b0a18ed11b229fc,[eslint config] [breaking] update `eslint-config-airbnb-base`,['afe340773f082b262955abf243efbd60e2d87ee4'],False,['package.json']
+47021150388d1cea54c529463fe20299f1de9bb5,Fix: Typo,['363bb077658906ccc809419b1ce3cb2f75b29e90'],False,['.markdownlint.json']
+fe8de599774bf8d312b2b94e93172e873c36df8f,[eslint-config] [*] [docs] :pencil2: fix typo in Readme,['77fdae6a74a718d1ec32455088dbb5f964f5d271'],False,"['README.md', 'README.md']"
+2037fd82b9260db71758aedc513e86b7df23c01e,[Tests] link eslint from the base config as well,['7dda84a335f5903d72c9423dc17f33f2c9813d2a'],False,['package.json']
+96317f8c79d6c5a6e9478a49eb89770863c4e6e1,"[guide] fix anchor tag in README.md
+
+Currently, this anchor with missing end tag breaks rendering:
+
+https://github.com/airbnb/javascript/blob/5d1f4b9a49ee7def65343f5efccfcce7723b9b4b/README.md#arrays--from-iterable",['a510095acf20e3d96a94e6d0d0b26cfac71d2c7f'],False,['README.md']
+b6a268f780177e03b573a4f0df95ecc0d2e8783e,"[eslint config] [react] disable two buggy rules, temporarily",['96317f8c79d6c5a6e9478a49eb89770863c4e6e1'],False,['react.js']
+dfb70d62448e315f0ad6adffe29d7ea136feb61b,"[*] [deps] update `eslint-plugin-import`, `safe-publish-latest`",['32a674de0b9459ee1e3220db3a7f41b197ac61ab'],False,"['package.json', 'package.json']"
+fcfd378dd87f609be445d71e89b9141a8800827b,Fix outdated link to Airbnb's Neutrino preset,['d774b8979eee9aa0c4c155b1b1dceba5bb6fd0af'],False,['README.md']
+e7ffd44b4a95962bef5c1861fc2920650d3fa2c1,"Update .markdownlint.json
+
+Fixed typos and grammar",['17e0454672f784772c5f5ab052523a93229d9adf'],False,['.markdownlint.json']
+32a7bf44c2e5b3d2a5d05af46716fbe45bc09bec,:pencil2: fix docs for whitespace config,['02b4eea3452b0ae6da666b01f9da23f26148f5b6'],False,"['README.md', 'README.md']"
+41a13e83eee02be3fcfc0657a6cb994018df700d,"[19.16] changed Enforce to avoid
+
+Good practice is to avoid spaces between functions and their invocations. But by mistake (I think so) you used the word Enforce instead of Avoid",['03a0734fcefa0e7ab351ce33fd1562e089de1e5d'],False,['README.md']
+21b65e943c361f91af5a484460fb2c8d02e2ff92,"[eslint config] [base] [deps] Switch to confusing-browser-globals
+
+The `eslint-restricted-globals` package author created an equivalent
+package `confusing-browser-globals` that now resides within the
+create-react-app monorepo. In sidoshi/eslint-restricted-globals#2
+@sidoshi suggested that we change eslint-config-airbnb-base to depend
+on the CRA package instead, in an effort to consolidate the two.
+
+Currently the two global lists are identical, so this does not change
+the generated eslint config:
+https://unpkg.com/eslint-restricted-globals@0.2.0/index.js
+https://unpkg.com/confusing-browser-globals@1.0.5/index.js",['74deb81d1fa670a5a462f6ada29d9447cf61c7c0'],False,"['package.json', 'variables.js']"
+0d6d854b5c70c8440091253c2d1fcc84b6f8ee20,"[17.2] Added second anchor https://github.com/airbnb/javascript/pull/1960
+
+See requested changes here: https://github.com/airbnb/javascript/pull/1960#pullrequestreview-176797787",['21b65e943c361f91af5a484460fb2c8d02e2ff92'],False,['README.md']
+218c4fefbb010922866c18ef88e34ec66bb962a5,"[eslint config] [base] [fix] disable `no-var` in legacy entry point
+
+Fixes #1935.",['80920a07c5144148d2987f39fb9558246552648e'],False,['legacy.js']
+1439ebe78d043ed8c206367b23406da7ddb7c3ce,[editorial] [react] fix typo,['95286eb496acf09fb8360d5368f798b040a0b5c1'],False,['README.md']
+da0cf088316692b59751bfd64e99125a4acd3869,[Tests] on `node` `v11`,['a71c2d1ad3ff71627ea2848ae21ea35d5d7ef061'],False,['.travis.yml']
+495a62aaa9c2110cb06e6243d91373aa4fb384da,[guide] fix example 4.7 for arrays method callbacks,['da0cf088316692b59751bfd64e99125a4acd3869'],False,['README.md']
+117d4fce49096bec1cb5d3c030031aca994ddb5a,[Tests] fix issue with eslint dev deps,['447466681e9c38858ef81af7a84aada801630352'],False,['package.json']
+030e23b13e9d21b0775239c475ea137ad13e8a64,[guide] Fix npm package has usage example,['036612ec3d8af223d2a3adc40aca70365b5612fd'],False,['README.md']
+6c0a884179c5fcb7b52d516dcfb54c6bcf4dc6c1,[guide] fix dead jsperf links,['030e23b13e9d21b0775239c475ea137ad13e8a64'],False,['README.md']
+820ccf7652f2f67a18b095a613ba99f9159eac93,[eslint config] [*] [tests] use `eclint` instead of `editorconfig-tools`,['792bb567e5d7437a381dfd9ab530b13fa2331c2e'],False,"['.editorconfig', 'package.json', 'requires.js', 'package.json', 'requires.js']"
+945c62f22996d0fd3e7917d2769d60b1dd533e49,[Tests] on `node` `v12`,['820ccf7652f2f67a18b095a613ba99f9159eac93'],False,['.travis.yml']
+3b18fea1ede26833c432e96f4330edcddd2f12b7,[Tests] only run tests in non-lint per-package travis job,['945c62f22996d0fd3e7917d2769d60b1dd533e49'],False,"['package.json', 'package.json']"
+8eacf24310f314abd40a1266e90818e11fefbdca,"[eslint config] [*] [breaking] add eslint v6, drop eslint v4
+
+See #2036",['3b18fea1ede26833c432e96f4330edcddd2f12b7'],False,"['.travis.yml', 'package.json', 'whitespace.js', 'package.json', 'whitespace.js']"
+820745d61090139193cf9257b88974e36dfc9b35,[guide] [eslint config] [base] [breaking] Require parens for arrow function args,['8eacf24310f314abd40a1266e90818e11fefbdca'],False,"['README.md', 'es6.js', 'test-base.js', 'test-base.js']"
+f6acb789a02a3295cfb2ae8c48f0e11060a0634c,"[guide] [eslint config] [base] [breaking] Simplifies `no-mixed-operators`
+
+- adds warning on mixing `/` and `*` arithmetic operators
+- removes warnings on mixing `**` and arithmetic operators
+- removes warning on mixing `in` and `instanceof`
+- removes warning on mixing `~` with other bitwise operators
+- removes mixing of assignment operators with comparison operators",['820745d61090139193cf9257b88974e36dfc9b35'],False,"['README.md', 'style.js']"
+b96341fb86f28e421ec5a6674ab55d95f6f4c1ad,"[eslint config] [base] [breaking] legacy: Enable 'strict'
+
+This enables the `strict` rule in 'safe' mode:
+https://eslint.org/docs/rules/strict#safe",['f6acb789a02a3295cfb2ae8c48f0e11060a0634c'],False,['legacy.js']
+42c647f31b046fd56a51316caf681846100abd4f,"[eslint config] [base] [breaking] Set 'strict' to 'never'
+
+Previously `rules/strict.js` was only used by `eslint-config-airbnb`
+and not base. This change reduces the duplication, and means the rule
+is now set to 'never' as opposed to the ESLint default of 'safe'.
+
+For users that left the `sourceType` at this preset's default of
+`module` this change will be a no-op, since in module-mode the
+`strict` rule always behaves as though 'never' had been set.
+
+See:
+https://eslint.org/docs/rules/strict#options",['b96341fb86f28e421ec5a6674ab55d95f6f4c1ad'],False,['index.js']
+ad0c44c6affa87743419038682f00c0b9d0d9989,"[eslint config] Remove rules/strict from 'extends'
+
+Since the file is now imported in base instead.
+
+Fixes #1582.",['42c647f31b046fd56a51316caf681846100abd4f'],False,['index.js']
+2160a77baa5eb62b78f0c2cfecfc37086e78c657,[eslint config] [breaking] [react] add `react-hooks` plugin,['ad0c44c6affa87743419038682f00c0b9d0d9989'],False,"['README.md', 'hooks.js', 'package.json', 'react-hooks.js', 'requires.js']"
+a344d6c8e7f21e6af107ed3e335068bf6a621c5d,[guide] [eslint config] [base] [breaking] `no-multiple-empty-lines`: Restrict empty lines at beginning of file,['2160a77baa5eb62b78f0c2cfecfc37086e78c657'],False,"['README.md', 'style.js']"
+19e9ce31fe051c2232c90bf63dab0ee2fe0efbaf,[eslint config] [base] [breaking] `padded-blocks`: enable `allowSingleLineBlocks` option,['61c7ae61895af2b3c7938015eaf72ca1e0fddb3e'],False,['style.js']
+6b5922ca2132980609fe217353162c2338b29ae2,"[eslint config] [breaking] set react version to ""detect""
+
+Fixes #1983.",['a490005ddfbd73f96f0fc4335bf035cd554ad2e6'],False,['react.js']
+11ede40d55734064f2d497e29cb7fde21d3df209,[eslint config] [base] [breaking] `func-name-matching`: enable `considerPropertyDescriptor` option,['e257deebd4544cf3609d5336f463688981897fe7'],False,['style.js']
+88e71e6e5223701d353325035383c3a8d9fd88b2,[eslint config] [base] [breaking] enable `prefer-object-spread`,['11ede40d55734064f2d497e29cb7fde21d3df209'],False,['style.js']
+f0c767fd398b7b10ee189a701823630d25100598,[eslint config] [base] [breaking] enable `no-async-promise-executor`,['88e71e6e5223701d353325035383c3a8d9fd88b2'],False,['errors.js']
+d03a712bba592da02631fb30824f6661788b2120,[eslint config] [base] [breaking] enable `no-misleading-character-class`,['f0c767fd398b7b10ee189a701823630d25100598'],False,['errors.js']
+08f8093ed112306b360e6d5f21eb45bedf69f214,[eslint config] [base] [breaking] enable `max-classes-per-file`,['d03a712bba592da02631fb30824f6661788b2120'],False,['best-practices.js']
+d490ee1806abdf07fe53f023384b223dab643b0b,[eslint config] [base] [breaking] enable `no-useless-catch`,['08f8093ed112306b360e6d5f21eb45bedf69f214'],False,['best-practices.js']
+282ef9ea9051dce725f382ac83cb5c3f2d4da0c2,[eslint config] [base] [breaking] `no-self-assign`: enable `props` option,['d490ee1806abdf07fe53f023384b223dab643b0b'],False,['best-practices.js']
+e6f591f660a16da51a8fe8a9239703b9bde82c13,[Dev Deps] update babel-related deps to latest,['282ef9ea9051dce725f382ac83cb5c3f2d4da0c2'],False,"['package.json', 'package.json']"
+a23f93eb001ec398ff42f37945b01db2787f6c93,[eslint config] [breaking] enable `react/jsx-fragments`,['b447768ad322d87ca88a0ecb9e0d0d6168d19aca'],False,['react.js']
+73f71d9ba4f9ae48054438420c27651fc924d196,[eslint config] [breaking] enable `react/jsx-props-no-spreading`,['089022aeff7b4d753c9f419c5b4e3a26cdf625b8'],False,['react.js']
+1e0a696730256af82d284f37a66032681cf23387,[eslint config] [breaking] disable `label-has-for`; enable `control-has-associated-label`,['73f71d9ba4f9ae48054438420c27651fc924d196'],False,['react-a11y.js']
+530278467f8b0a1b2aee632fbeee543e6732ef35,[eslint config] [patch] `react/state-in-constructor`: fix incorrect configuration,['bdba997ac704f7fdcebf4467babaa3f35828c0a5'],False,['react.js']
+295d1e61cbebd33d06cbd287fc1d7ea59ba959f7,"[guide] clean up confusing example from bad rebase
+
+ ... from
+https://github.com/airbnb/javascript/commit/820745d61090139193cf9257b88974e36dfc9b35#diff-04c6e90faac2675aa89e2176d2eec7d8R963-R965
+/ #1863.
+
+Fixes #2071.",['a204cdf38a3e67a405c191773456d18296a9b37b'],False,['README.md']
+8c94d53bf88346cc4f55bfed769e3ee8c8247f80,"[eslint config] [*] [dev deps] update `@babel/runtime`, `babel-preset-airbnb`, `safe-publish-latest`",['79047a947000b4b328fb9a6579d00e538768629e'],False,"['package.json', 'package.json']"
+df2c99c81474ab0fe9aecf0244d465785d3ee3df,[tests] fix eslint errors from c66cfc3,['ab72ab9e90f403e90590f8815e0563248af10470'],False,['test-react-order.js']
+5a32c33bf2bf967ce32bae2fd33b3fea275a99be,"[eslint config] [base] [minor] enable `import/no-useless-path-segments` for commonjs
+
+Fixes #2077.",['df2c99c81474ab0fe9aecf0244d465785d3ee3df'],False,['imports.js']
+8f78e1f44b9ca2f3a7da970771982694fa84fd72,[tests] re-enable eslint rule `prefer-destructuring` internally,['5a32c33bf2bf967ce32bae2fd33b3fea275a99be'],False,"['.eslintrc', 'whitespace.js', '.eslintrc', 'whitespace.js']"
+64b965efe0355c8290996ff5a675cd8fb30bf843,[guide] Fix Temporal dead zone link anchor,['3fb312f18198364bacc07e61ca58ff89f9f0afa2'],False,['README.md']
+5927c7f706feee7542341faaa298176c2a82263d,[guide] fix possible typo,['56b75dc3592c2118cefc5296c94d5fce5923a487'],False,['README.md']
+370793b3ddfecfef29c05a62bdf17ec3d1b0a8b3,"[eslint-config] [*] [fix] `whitespace`: only set erroring rules to ""warn""
+
+Fixes #2105",['2e3adc98c784be7fa63c7a05271f7aa86c9d6bc7'],False,"['whitespace.js', 'whitespace.js']"
+4df908033fb52184ac58deacc19c00ceb11020d1,"[eslint config] [*] [dev deps] update `@babel/runtime`, `babel-preset-airbnb`, `safe-publish-latest`, `tape`",['377fbcac88728737dd8bd3180ec3819c3a2a5231'],False,"['package.json', 'package.json']"
+651280e5a22d08170187bea9a2b1697832c87ebc,[eslint config] [base] Fix indentation with JSX Fragments,['f86f19cefc3b1ce19c4bf473606c95de86779b68'],False,['style.js']
+717ba5187af3b4c36877c2a7031edf202e72cf88,"[guide]: add ""bigint"" type to the primitives type section.
+
+```js
+var bn = 123n
+```
+(with ""n"" as suffix)",['9890b4067700be1f2d045788f4ea5fbf12b5f8bf'],False,['README.md']
+165af9b6c881a0e413df824276aab4c7134dc4f9,[Tests] actually run the linter on subpackages,['e6e6414c973d6aa5f3672296fe3cf6c399ca570a'],False,['.travis.yml']
+d529ccaea3b3da1c1cfce686b119d662e8e05c69,[eslint config] readme: fix typo,['a3355f90c4b52445dbe828fd4e71a7e7d12ef202'],False,['README.md']
+f075a0db50f1fd6a798cb6e0c3677421deb7b522,"[eslint config] [patch] relax `eslint-plugin-react-hooks` down to v2.3, due to a controversial change in v2.5
+
+Fixes #2195.",['d529ccaea3b3da1c1cfce686b119d662e8e05c69'],False,['package.json']
+e4f3dd4effd8e579427eeceb60d2f4e2ed5d08a7,"[react] Update Chinese (Simplified) Translation
+
+The translation for Chinese (Simplified) is outdated. Changed to an up-to-date translation that synced with current English version, enhanced expressions for better readability, and also added notes of technical terms for Chinese readers.",['0375265cbd43635f8062615995a6a86f22fd0fc2'],False,['README.md']
+06b3ab11d9a443ff46f052dd00375e271e5146e6,"[eslint config] [minor] Fix typo in no-multiple-empty-lines rule
+
+ ## Why is the change being made?
+
+This change is made because the Airbnb documentation states to ""avoid a
+newline at the beginning of files"", yet the code does not follow this.
+
+ ## What has changed to address the problem?
+
+This change fixes the `no-multiple-empty-lines` rule by setting max
+beginning of file (`maxBOF`) to from 1 to 0.
+
+ ## How was this change tested?
+
+This change was tested with `npm test`.
+
+ ## Related docs
+
+https://github.com/airbnb/javascript#whitespace--no-multiple-empty-lines",['c0ee2c492460ac7428286c2bb0b48b4a058430fa'],False,"['style.js', 'test-react-order.js']"
+8aee3e160053d07b4c156f0885fb5a6da4e19603,[eslint config] [base] [patch] Include 'context' exception for `no-param-reassign`,['cad3db31695631a7877cece8903eea1f41d59e03'],False,['best-practices.js']
+fe2e451ba75b2ebfedc1cf4f9bf217f104b06a1d,"[Tests] add `node` `v14`; remove `v9`, `v11`",['b58700607707c7e280e5e266a884115cbcea806c'],False,['.travis.yml']
+f550ded6dab8dac9d42f2dfa5f2ed9858f0fe045,[eslint config] [tests] fix for eslint 7,['562e3519b874d91b369c5c6fe8a94408a380758b'],False,['test-react-order.js']
+6006d6d2dfe0a47fdd18acd6f2a9e207ef0cc8f8,"[guide] fix dead es-discourse link
+
+Fixes #2274.",['a24dc34a4a2748c99006a48e997aa0a06b1d4d94'],False,['README.md']
+337f60706fcaeb4e897e8fe38f8af39e8ea410b9,[guide] Fix grammatical errors,['6006d6d2dfe0a47fdd18acd6f2a9e207ef0cc8f8'],False,['README.md']
+2c5c88d0487db3024e8a20bb20f46933a03dd8aa,"[guide] Update reason for preferring object destructuring
+
+Fixes #2293
+
+The reason for preferring object destructuring is quite narrow in scope. While this guide isn't intended to provide every possible reason for every preference, it perhaps should aim to provide a succinct and compelling reason. The current reasoning could be improved to meet this standard, so I'm proposing adding some additional information to clarify the benefits of what is an often controversial rule (controversial only because its introduction can require many changes in a mature codebase and has no auto fix available).",['ee2f22a10c0b82a21eaa7743905712b6cb145fc2'],False,['README.md']
+d3c7b84d9e513fc1388de28775574ed614ee33e6,"[eslint config] [patch] Fixed `handle` and `on` ordering in `sort-comp` rule
+
+- fixes #2116",['b30b0e4d917bf74d90cc39c4d74237957fe7b603'],False,"['react.js', 'test-react-order.js', 'README.md']"
+05c3bb0018fcd46a41fec07a1308075c7aaea197,"[eslint config] [patch] Fix ignoreNonDOM typo in jsx-a11y/aria-role rule
+
+This should be `ignoreNonDOM` not `ignoreNonDom` according to [documentation](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/aria-role.md).",['d3c7b84d9e513fc1388de28775574ed614ee33e6'],False,['react-a11y.js']
+1f786e154f6c32385607e1688370d7f2d053f88f,"[eslint config] [base] [patch] fix spelling of ""than""
+
+you mean ""than"" not ""then"".",['5620bd5620b17184f57cd97ebf03b0efee3cc464'],False,['best-practices.js']
+9c181108a7f11be1b97191f17c9ab2dc98e28c6e,"[meta] Fix typo in .markdownlint.json
+
+preceeding -> preceding",['ea5ec0c5242a4b987eb4a2861d65298450fb05d0'],False,['.markdownlint.json']
+711aeb650db14c3b8cc329511ac508ee05bc1af6,"[editorial] Complete 19.6 example code (cut in the middle)
+
+Fixes #2403",['9c181108a7f11be1b97191f17c9ab2dc98e28c6e'],False,['README.md']
+730b74927432d5931f9047322e925fb7e1c07be6,"[eslint config] [patch] Alphabetize the rules for react-a11y.js
+
+The ordering of the rules are currently not alphabetical, which can make it hard to tell whether there are rules missing or what's set for each rule from eslint-plugin-jsx-a11y.
+
+This change alphabetizes the list so it's easier to compare to the [list of supported rules](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y#supported-rules)",['4d837646b7ae2a37780f91423479e65949863570'],False,['react-a11y.js']
+0cf78acab0fff90e9591dedd8783b62a72ffc118,[guide] Fix 19.6 example code,['730b74927432d5931f9047322e925fb7e1c07be6'],False,['README.md']
+1eadb93e377da1e56c3f91f26610e5d0a00738a9,"[eslint config] [fix] bump eslint-plugin-react-hooks peer dependency version
+
+Fixes #2355",['0cf78acab0fff90e9591dedd8783b62a72ffc118'],False,['package.json']
+f5c14cae2ff58000cead98290b8ec4b54dda2f14,[readme] fixed typo and removed redundancy,['428c9ddb7e27466c74fb3b02d20d427d8500f7c9'],False,['README.md']
+82dbec3c995687fd6e08151c6d97768f6d970d56,[guide] Fix 14.1 Temporal Dead Zones link,['122788230acdc416e3168e07f7d0bf89a744dd94'],False,['README.md']
+ea5b991a4f67264a7d3a2d783de67b29450f2779,[Tests] migrate tests to Github Actions,['2a6bec1132c937c3f512da083c759bbd7da4ce90'],False,"['node-pretest.yml', 'node.yml', 'rebase.yml', 'require-allow-edits.yml', '.travis.yml']"
+8aec65a4d385c49550bf7e53a18044d8f09d5c06,"Merge pull request #2491 from airbnb/travis
+
+[Tests] migrate tests to Github Actions","['2a6bec1132c937c3f512da083c759bbd7da4ce90', 'ea5b991a4f67264a7d3a2d783de67b29450f2779']",True,[]
+c12a08c479ba139718bf8ab7eb21a3a5d0c520d7,[actions] fix action working directories,['10a6d02c665f35826114d66ee8f37bda1d89f59e'],False,['node.yml']
+96f11d8c810de5712ba4f80adaa402057565a3be,[actions] run prepublishOnly in prepublish tests,['c12a08c479ba139718bf8ab7eb21a3a5d0c520d7'],False,['node.yml']
+eac8cc605b0ee7acf32b9b3c7fa62fa66cd35de0,[eslint config] [base] [breaking] add `exports`,['be6966b2514c53097b98e218afb52e813859dfe1'],False,['package.json']
+f3d3a075cda2acc02011e71991c10bb5b4a15278,"[eslint config] [base] [breaking] drop eslint < 7, add eslint 8",['eac8cc605b0ee7acf32b9b3c7fa62fa66cd35de0'],False,"['node.yml', 'package.json', 'best-practices.js', 'errors.js', 'es6.js', 'imports.js', 'style.js', 'whitespace-async.js', 'whitespace.js']"
+37ebbba44cb1a7cf994c43f4b8e900b9fe7e6d22,"[eslint config] [deps] update `eslint-config-airbnb-base`, `eslint-plugin-jsx-a11y`, `eslint-plugin-react`, `eslint-plugin-react-hooks`, `safe-publish-latest`",['930a6f2e4c98df904ec748a6a2bd4928ef6218b1'],False,['package.json']
+1bc8cabd447ef9ce69d27ae70e67eb47daeffc21,[eslint config] [breaking] support `eslint` 8; drop `eslint` < 7,['37ebbba44cb1a7cf994c43f4b8e900b9fe7e6d22'],False,"['package.json', 'react.js', 'test-react-order.js']"
+c4000b932a452a5d33663310b28ce7d11ea88f33,"[eslint config] [fix] `whitespace`: udpate to support eslint 8
+
+Fixes #2517",['31c6f21878a4aeb13e6d3547252a88aece6002b0'],False,"['whitespace-async.js', 'whitespace.js', 'whitespaceRules.js']"
+371537f393da4862c624bdd90ae823bda0e251ec,[Tests] re-enable tests disabled for the eslint 8 upgrade,['c05ffb2417908650ec789aa442020e34669ad824'],False,"['node.yml', 'test-react-order.js']"
+afc2cc34327459dcda12ce0d0656a0ffecf100a0,"[eslint config] [meta] fix ""exports"" path
+
+Fixes #2524",['371537f393da4862c624bdd90ae823bda0e251ec'],False,['package.json']
+274c8d570155a05b016980294d4204c5711bce86,"[eslint config] [patch] set `namedComponents` option to match style guide
+
+Change the `namedComponents` option to `function-declaration` to match what the style guide requires.
+
+https://github.com/airbnb/javascript/commit/019e0f7e07477e85249e1d584f22773120c41b91#r60060792",['38bc026fe46f807627967bed1e5e7415182cba20'],False,['react.js']
+34b5bc39f1a7b8b999e041db5c3b84c0ebe0f850,"[meta] revert changes from d4e39c9b10767cc77c7d0091f2eae06a6ccfc33e
+
+Caused by https://github.com/npm/cli/issues/3619",['d4e39c9b10767cc77c7d0091f2eae06a6ccfc33e'],False,['package.json']
+7fdc87a8be565fa1f1779dc1d6b6461b953f7d85,"[guide] fix eslint core rule URLs
+
+ - fix broken eslint eol-last link
+ - remove .html ending in eslint urls",['1677ba6c6a285366e38998e292d42a7eab64d18e'],False,['README.md']
+42c0e2ea13e30ae47a6ebad1e1b5d95a44ac7665,Fix typo in eslint-config-airbnb-base changelog,['7fdc87a8be565fa1f1779dc1d6b6461b953f7d85'],False,['CHANGELOG.md']
+5155aa5fc1ea9bb2c6493a06ddbd5c7a05414c86,"[eslint config] [base] disable the deprecated `no-spaced-func` rule
+
+This rule was deprecated since ESLint v3.3.0 and replaced by the
+`func-call-spacing` rule.
+https://eslint.org/docs/latest/rules/no-spaced-func
+
+`func-call-spacing` was enabled in this package long ago:
+https://github.com/airbnb/javascript/commit/27dcb99c6d80718946d10017144b2aa68bed8b9e
+
+So there's no need for it to stay in the ruleset.
+
+Besides, it is causing some tricky issues when overriding the rules for
+TypeScript support (https://github.com/iamturns/eslint-config-airbnb-typescript/issues/246)",['cbf9ade10a2f6f06c9da6dbfa25b344bee4bbef6'],False,['style.js']
+c6b1a43c489d2c242f9c6c6d12966c95d27d9dfa,"[guide] rename `qux` to `quux`
+
+Fixes #2661",['6947138ee34319133da0e28a0e59abad987f1586'],False,['README.md']
+38f1488918ef19f56191e855f624fa5da988d547,[guide] fix typo in `space-before-blocks`,['c6b1a43c489d2c242f9c6c6d12966c95d27d9dfa'],False,['README.md']
+49d08a2f134f4d6524e99aacce57914b8957994e,"[readme] prefer `const`/`let` over `var` in examples
+
+2.1 Use const for all of your references; avoid using var. eslint: prefer-const, no-const-assign",['0d747c6d96f94e54d24d8c005da0c87105bf0fd5'],False,['README.md']
+4ef69edc633972a559cb7418e8aee8172cc9fbad,[Tests] refactor test paths,['d60170173096486bde4eff320a22148e79acff48'],False,"['test-base.js', 'test-base.js']"
+69fc1bf1953a9113f30f07ef93b69caaf498c689,"spell checking, fixed grammar error.",['5c01a1094986c4dd50a6ee4d9f7617abdfabb58a'],False,['README.md']
+7982931ba745c0f57ba6934fc7e6cc43901dac76,"[readme] Updates ESLint rule in section 12.3 (exponentiation-operator)
+
+The change itself has already been made in f3d3a075cda2acc02011e71991c10bb5b4a15278
+(tracked in/acording to https://github.com/airbnb/javascript/issues/2421#issuecomment-1371305010).
+
+
+#2421
+Remove Math.pow from `no-restricted-properties` and use `prefer-exponentiation-operator` instead.",['69fc1bf1953a9113f30f07ef93b69caaf498c689'],False,['README.md']
+2fc5e2d52c48c1dfc76f52f704c41dcfd28a0de7,[guide] fix grammar,['749f4c2bd0e2e890fed7f421ac39b8689fe00d99'],False,['README.md']
+f20eca9f646954f2ebb0375e3a99b85e7b7161ad,"[guide] fix compat table URL
+
+https://kangax.github.io/compat-table/es6/ hit a 404 error,
+
+URL: https://compat-table.github.io/compat-table/es6/",['932951adc2d503d906c85b01179b4e1256c41896'],False,['README.md']
+39b970f7024006d34d40d5afdf763b32c9a8a074,"Add Zit Software to `In the Wild`
+
+Signed-off-by: Kim Minh Thắng <thangved02@gmail.com>",['d1705c389ed3745f10139b32fca655c306dd56bb'],False,['README.md']
+f45bd1ebc0549d370ccd7cb0ca039b40d3be768b,[eslint config] [*] [fix] fix crash in eslint invocation with TIMING env set,['e6080c7beed96700a599e7d86f1517bdc8269366'],False,"['whitespace.js', 'whitespace.js']"
