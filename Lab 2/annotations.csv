@@ -1,0 +1,152 @@
+hash,filename,message,LLM Inference (fix type),Rectified Message,dev_score,llm_score,rectified_score,notes
+52d3401f953afcf09ca64dbbb177c6284832aae6,strict.js,[eslint config] [eslint config base] [breaking] Migrate non-React rules to a separate linter config.,nan return null,Update strict.js,2,0,1,
+7ff6303513b46e8b7dd0bc03327b138a6db7b3b4,README.md,"[guide] Use HTTPS for links to ESLint documentation
+
+The result of a `s_http://eslint\.org_https://eslint\.org_g`.
+Avoids the HTTP 302s of the non-HTTPs URLs.",add missing link to lint config,Update documentation in README.md,2,2,1,
+140ce8b56c9cd1258809e534b6f8c46913ae0f99,best-practices.js,[eslint config] [breaking] disallow empty restructuring patterns,add comment,Update best-practices.js,2,0,1,
+34ccf905d65c2f0a7f946919f5d2c703f359d973,es6.js,[eslint config] [base] [breaking] migrate import's settings/rules to a separate file.,add missing comments,Update es6.js,2,0,1,
+fc7fae620f625701a5614fb9cf9ec1e9c49bcc70,.travis.yml,[Tests] add pretravis/posttravis scripts,add missing missing nvm install script,Update .travis.yml,1,2,1,
+42c0e2ea13e30ae47a6ebad1e1b5d95a44ac7665,CHANGELOG.md,Fix typo in eslint-config-airbnb-base changelog,add missing `tape` tag,Update documentation in CHANGELOG.md,2,2,1,
+9eb24d6b61515747f5a67f179ddb3d73ad385121,README.md,"[editorial] clean up some constructor examples
+
+Fixes #792",add missing js comments,Update documentation in README.md,2,1,1,
+8e125fa07cd9214b5e31e59095707ffae3284d13,README.md,"[eslint config] [base] [breaking] Enforce proper generator star spacing.
+
+Fixes #887.",add missing comments to generators,Update documentation in README.md,2,1,1,
+a75efdfdb0484f3e09112c2d5c381d0513f06040,README.md,"[guide] improve ++/-- example.
+
+Fixes #1130.",add more examples to table-of-contents,Update documentation in README.md,2,2,1,
+11b9adff01597361f080588196a268e1d6f64d86,README.md,Fix japanese translation link,add japanese to the list of styled flags,Update documentation in README.md,2,1,1,
+0cca5e21fc66d6c5f076af71ab9a269a3ccddcc7,README.md,"Fix hoisting examples
+
+Hoisting only happens to `var`. As kangax describes in [Why `typeof` is no longer “safe”](http://es-discourse.com/t/why-typeof-is-no-longer-safe/15/3).
+
+Also, I wonder if we need the whole section, since you recommend to [avoid using `var` altogether](https://github.com/airbnb/javascript/blob/b492/README.md#references).",add missing comments,Update documentation in README.md,2,1,1,
+52d3401f953afcf09ca64dbbb177c6284832aae6,.travis.yml,[eslint config] [eslint config base] [breaking] Migrate non-React rules to a separate linter config.,update lint.js,Update .travis.yml,2,2,2,
+f9a5dd4919c30d575944ded3d9e33b233041ffe4,README.md,"Update JSX quote style rationale.
+
+Based on https://github.com/airbnb/javascript/issues/629#issuecomment-166384924.",add comment about double quotes in html attributes,Update documentation in README.md,2,2,1,
+f20eca9f646954f2ebb0375e3a99b85e7b7161ad,README.md,"[guide] fix compat table URL
+
+https://kangax.github.io/compat-table/es6/ hit a 404 error,
+
+URL: https://compat-table.github.io/compat-table/es6/",add test case for `firstname` in weakmap tests,Update documentation in README.md,2,0,1,
+13cddaf51e3479ba208a7d13dd01dbca1ba30463,react.js,"[eslint config] [breaking] enable `react/jsx-curly-spacing` rule.
+
+Fixes #693.",add missing comments,Update react.js,2,0,2,
+06b3ab11d9a443ff46f052dd00375e271e5146e6,style.js,"[eslint config] [minor] Fix typo in no-multiple-empty-lines rule
+
+ ## Why is the change being made?
+
+This change is made because the Airbnb documentation states to ""avoid a
+newline at the beginning of files"", yet the code does not follow this.
+
+ ## What has changed to address the problem?
+
+This change fixes the `no-multiple-empty-lines` rule by setting max
+beginning of file (`maxBOF`) to from 1 to 0.
+
+ ## How was this change tested?
+
+This change was tested with `npm test`.
+
+ ## Related docs
+
+https://github.com/airbnb/javascript#whitespace--no-multiple-empty-lines",add missing comments,Update style.js,2,2,1,
+a23a3efba9d1661e52cfa6894d620cee965ac090,best-practices.js,"[eslint config] [base] [deps] [breaking] update `eslint`
+
+ - enable `no-useless-return`
+ - tighten up `indent`
+ - loosen `max-len` with `ignoreRegExpLiterals` option",add missing comments,Update best-practices.js,2,2,1,
+7b834b989c9829ba0693ff7e3c74eb5ec058c18e,style.js,"eslint: Fix `no-mixed-spaces-and-tabs` turn off
+
+Currently the way the rule is defined, mixing spaces and tabulations in
+indentation is allowed. However, the comments and documents seems to say
+the opposite.
+
+This patchs turns the rule on so mixing spaces and tabs is NOT allowed.
+
+Fixes: #539",add missing comments,Update style.js,2,2,1,
+9028379f872b175b085e78ac67e5a4c81f50c4d5,imports.js,"[eslint config] [base] [breaking] re-disable `import/extensions` rule
+
+ref https://github.com/benmosher/eslint-plugin-import/issues/390",add todo to plugin import rule,Update imports.js,1,2,2,
+cd4ec6245ef0b3d3fcb9bbef89bf34ea0ec0c7fb,README.md,[guide] change more straight quotes to curly quotes,add more comments to `references` section,Update documentation in README.md,2,2,2,
+9af944dd0513b95b910cd69371c2d0f2c38f87b3,style.js,"[eslint config] [fix] because we use babel, keywords should not be quoted.",add missing comments,Update style.js,1,1,1,
+455529c2346bd9f38e9ce09c507afbc11bba6b17,README.md,Updates es5 guide with latest,add docs for array#push and array#pop,Update documentation in README.md,2,1,1,
+8cf2c70a4164ba2dad9a79e7ac9021d32a406487,README.md,"[guide] Add explanation for semicolon enforcement rule
+
+Also update code samples to highlight ways in which ES6
+currently mishandles code when relying on Automatic Semicolon
+Insertion
+
+Revise hyperlink and example
+
+- Use more up-to-date TC39 reference page on github.io
+- wrap returnless function with side-effects in curly braces
+
+also, clean up punctuation on a long comment line
+
+Always use single-quoted strings
+
+Except for when the string needs to be double-quoted because the string contains apostrophes
+
+Update second example to incorporate IIFE
+
+An IIFE is a more realistic example of code that developers may encounter which would raise an exception when relying completely upon ASI",add missing rules,Update documentation in README.md,2,2,1,
+616233c8b29f3c4be0e0deb61b306b8ce82acec5,errors.js,[eslint config] [base] [breaking] enable `no-unexpected-multiline` rule,add comment,Update errors.js,2,1,1,
+8bab767301b27b0f976b539542310b2dee01ed57,README.md,[type casting & coercion] add note about bitshift and large integers. fixes #109,add note about bitshift,Update documentation in README.md,2,2,1,
+e3e3cc1a4e246c720fc8305d80fa6504d4a69584,README.md,"[resources] add section for further reading, closures. fixes #64",add more examples to the events module,Update documentation in README.md,1,2,1,
+df2c99c81474ab0fe9aecf0244d465785d3ee3df,test-react-order.js,[tests] fix eslint errors from c66cfc3,add tests for order,Update tests in test-react-order.js,2,1,1,
+7c0bb0a6de0660d21166a4762330b27746e9244a,react.js,[eslint config] [breaking] enable `react/require-render-return`,add missing rule,Update react.js,1,1,1,
+7c0bb0a6de0660d21166a4762330b27746e9244a,README.md,[eslint config] [breaking] enable `react/require-render-return`,add missing return statement,Update documentation in README.md,1,2,1,
+2539557e98f802a00513719ed9dd87891c7cde4f,README.md,"Change Chinese Translation to a more official like version
+The current Chinese version translated by adamlu is a modified version which as he said change/delete some rules from the original and it's base on the version 2 years ago. I transalte a new version base on current style guide of es5 version.",add js style guide urls,Update documentation in README.md,2,0,1,
+8be089eb1138c6e5dbdc27146248525c0633ba47,react.js,[eslint config] fix tests,add missing comment,Update react.js,2,1,1,
+a100a3957ffb11c841dbd74a649cbb9b5a17a2aa,style.js,"[eslint config] [base] [breaking] Update `object-curly-newline` to match eslint 4.18.0
+
+In eslint v4.18.0 separate settings are introduced for imports and exports for the `object-curly-newline` rule.
+
+Without this change, there is different behavior when updating eslint to this version.",add missing rules for object-curly-newline,Update style.js,2,1,1,
+ea5b991a4f67264a7d3a2d783de67b29450f2779,rebase.yml,[Tests] migrate tests to Github Actions,add missing env in automatic rebase,Update rebase.yml,2,2,1,
+1e0a696730256af82d284f37a66032681cf23387,react-a11y.js,[eslint config] [breaking] disable `label-has-for`; enable `control-has-associated-label`,add deprecation warning,Update react-a11y.js,1,1,1,
+ad0c44c6affa87743419038682f00c0b9d0d9989,index.js,"[eslint config] Remove rules/strict from 'extends'
+
+Since the file is now imported in base instead.
+
+Fixes #1582.",add missing require,Update index.js,2,1,1,
+11bfc4a221907f20acf9ec8839f69cb5653cb1a2,README.md,Fixed typo,add missing closing tag to example,Update documentation in README.md,2,0,2,
+9d598c3563819a42f23f2ad19dd23a2f6e515a05,es6.js,"[eslint config] [base] [breaking] enable more overlooked rules:
+
+ - `no-void`
+ - `constructor-super`
+ - `prefer-spread`
+ - `no-new-require`
+ - `no-undef-init`",add more comments to lint rules,Update es6.js,2,2,1,
+b4995b6416faa714299a39976a0b7107ad7b2afe,variables.js,"[eslint config] [base] revert breaking part of #1420
+
+I’ll re-enable it in the next major.",add comment about no-shadow,Update variables.js,2,1,1,
+1282ee63df09442602588af5cedce850533b217a,README.md,Add comment on why we're breaking a rule,fix warning in micro-optimizing example,Update documentation in README.md,2,2,1,
+607ad012eeaa4e72601b381d49ddb905dee2f138,README.md,change wording for 8.2 for consistency,add missing semicolon,Update documentation in README.md,1,2,1,
+f7321b303d6f3046ba49741041312fa2d8c76ed7,README.md,[modules] fix invalid syntax in bad example. fixes #287,add missing semicolon,Update documentation in README.md,2,0,1,
+a344d6c8e7f21e6af107ed3e335068bf6a621c5d,README.md,[guide] [eslint config] [base] [breaking] `no-multiple-empty-lines`: Restrict empty lines at beginning of file,add markdownlint syntax comment,Update documentation in README.md,2,2,1,
+a23f93eb001ec398ff42f37945b01db2787f6c93,react.js,[eslint config] [breaking] enable `react/jsx-fragments`,add todo to jsx-fragments rule,Update react.js,1,2,1,
+81c58472b6cf6ea486365faf257e97100d85fa7f,react.js,Fix a bug introduced in f2afce75e949eacd1ba64e89b863105828976f20 / #581,add missing rules,Update react.js,1,2,1,
+e037d29b93e5b61434deb9ba485f76c6406b7cb3,package.json,[eslint config] [base] [deps] [breaking] update `eslint`; enable `no-await-in-loop`,add missing version of babel,Update package.json,1,2,1,
+a929776d67ea3471993356e5819c4099963175d7,package.json,"Improve guideline for image alt text
+
+After digging into this rule a little more with @evcohen, we believe that
+it is okay for images to have an empty string for alt text and have
+updated the plugin to reflect that understanding. This commit bumps our
+dependency on the rule to include this fix and updates our guideline to
+match.",add missing version of eslint,Update package.json,2,2,1,
+fd8cbec8e0b312dcf31a579fe3b1e7098ae0bfe7,README.md,[guide] change straight quotes to curly quotes,add more comments to the rules,Update documentation in README.md,2,2,2,
+274c8d570155a05b016980294d4204c5711bce86,react.js,"[eslint config] [patch] set `namedComponents` option to match style guide
+
+Change the `namedComponents` option to `function-declaration` to match what the style guide requires.
+
+https://github.com/airbnb/javascript/commit/019e0f7e07477e85249e1d584f22773120c41b91#r60060792",add missing comment,Update react.js,2,1,1,
+086cc0035df91b34c52744ab278b778a4d3208a7,errors.js,"[eslint config] [base] [breaking] enable `no-template-curly-in-string`
+
+ - Also, clean up rule documentation.",add more comments and comments,Update errors.js,1,1,1,
+01e72b9963bd8ff6567001d6be1612701a79383d,best-practices.js,[eslint config] [base] [breaking] `no-else-return`: disallow else-if,add todo for semver major rule,Update best-practices.js,2,0,1,
