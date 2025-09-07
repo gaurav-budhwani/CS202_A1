@@ -1,0 +1,4 @@
+pydriller>=1.11
+pandas>=2.0
+matplotlib>=3.7
+tqdm>=4.66
